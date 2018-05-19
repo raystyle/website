@@ -1,0 +1,50 @@
+---
+layout: post
+title: Manipulation of Public Opinion
+categories: blog
+---
+Manipulation of public opinion clearly isn’t anything new. It has traditionally been achieved by repeating over and over a specific message in the public and to the media to install a particular narrative that serves one’s interests. This commonly manifests with catchphrases which, just like commercial advertisement, are repeated endlessly until they become permanently ingrained in the public consciousness. We’ve seen it for example with the “blood on his hands” rhetoric being used against Snowden and Manning in the last years. We’re seeing it recently in the UK with “coalition of chaos” being used by the conservatives to refer to the opposition. And we’ve seen countless examples of that also by Trump during the 2016 campaign.
+
+<div class="quote">The public is fundamentally a consumer of political advertisement.</div>
+
+Social media has become an extension of this. Today’s Internet economic incentives foster an environment of clickbait and instant gratification, originally leveraged for online advertisement and moneymaking, but that it turns out is perfect too for catchphrase politics, particularly in a moment of resurgence of demonizing politics.
+
+With social media increasingly becoming a primary platform for the consumption of information, it also clearly has become a field where propaganda and misinformation campaigns play out. But the Internet doesn’t exist in a vacuum, it’s quite simply a reflection of society, with all good and bad that comes with it.
+
+With much talk of fake news (which quite frankly, is a term that I believe should be abandoned, because it is imprecise and unhelpful for a constructive debate) and of social media bots, I think we’re seeing a concerning trend towards a techno-fatalism, that finds in technology a scapegoat for significant societal issues (as we’ve seen time and time again with the introduction in society of a new technology), and that as a result invokes some kind of techno-solutionism, which is just as problematic.
+
+We are seeing some movements towards the over-regulation of content online. For example in Germany, where a law was passed that enforces fines of tens of millions of euros to companies who fail to enforce some appropriate and timely filtering of content and countering of “fake news”.
+
+These are complex phenomena that require deep and dedicated study to fully understand. There is no solid indication yet of what is the measured impact (for example on elections) of false news and Twitter bots, and while they might very well have some, it is imperative that before implementing further laws and controls we have a good and documented view of what is the nature of this problem.
+
+These issues need to be analyzed in the geographical and socio-political context in which they manifest. The impact of such phenomena will differ between countries that implement repressive policies with serious dangers involved in political manifestation, and say countries with a strong respect for the rule of law and human rights. These differences might warrant different reactions and countermeasures.
+
+<div class="quote">Firstly, it is reassuring to know that humans still lead the political debate.</div>
+
+On the matter of misinformation campaigns, Facebook recently stated for example that: “while we acknowledge the ongoing challenge of monitoring and guarding against information operations, the reach of known operations during the US election of 2016 was statistically very small compared to overall engagement on political issues.”
+
+A study by Stanford University comes to similar conclusions, and professor and co-author Matthew Gentzkow commented that “a reader of our study could very reasonably say, based on our set of facts, that it is unlikely that fake news swayed the election” and that “social media was an important but not dominant source of news in the run-up to the election”.
+
+In regards to the French elections, Oxford University published a paper that assessed the distribution of news over social media in the run-up to the first round and found that “the largest proportion of content being shared by Twitter users interested in French politics comes from professional news organizations. Information from political parties, government agencies and other experts is also being used. Still, 19.6 percent of the content being shared involves other kinds of political news and information. Yet the largest proportion of that content is not junk news but citizen-generated content”.
+
+And not only that, but that in regards to Twitter bots “by candidate, it appears that most of the candidates have roughly the same number of highly automated accounts generating traffic about them.”
+ And yet this automated traffic amounted to roughly 7% of the total, according to the researchers at Oxford.
+
+All this is to say that we need to step back a little and look at it with perspective in order to find appropriate and proportionate solutions that promote and respect the right to freedom of expression.
+
+A response driven by anxiety and panic is unlikely to be a constructive one and we don’t want to end up in a place where companies, instead of courts and the public opinion, are entitled to decide what is rightful content and what isn’t, and by extension we do not want to create regimes of over-censorship, because it is not by filtering that we solve bigotry and racism. Additionally, we might not realize that, while implementing certain restrictions or controls over some technology that might seem threatening to us, we might cause an unintended impact on the lives of others in other parts of the world. For example, a crack down on the right to anonymity online and enforcing service providers to police that, will necessarily mean for example that some human rights defenders in another country will not be able to do their work safely.
+
+That said, it is important that the public is well informed and it is not deceived. When we’ll get to the point where social media will be in fact the primary source of news, and by my reading it doesn’t seem to be there quite yet, the real answer to these issues will be education and media literacy.
+
+<div class="quote">Technology can’t be “trusted”, technology needs to be understood.</div>
+
+And we need to make sure that especially generations to come will be prepared to enter in their political life with the right understanding of how technology works, of how media and social media work and how they can be influenced, and to make sure they are taught the value of, and equipped with ways to actively seek diverse and accurate information.
+ And that is not just in response to the issue of misinformation and propaganda, but really it is simply a requirement for nurturing open minds.
+
+There are however some considerations that need to be asked to ensure technology and the Internet can contribute positively, rather than negatively, to society.
+
+Firstly, we need to re-think online advertisement, which besides being a toxic market that is corrosive to the right to privacy, it is also a key enabler of the twisted dynamics that I just spoke about. It is online advertisement after all that is the primary cause of clickbaiting, with all the consequences that it brings.
+
+Secondly we need to engage the tech giants and require an opening of their systems for algorithmic decision making. We just can not rely on systems that select, prioritize and carry information that operate in ways that are cloaked by trade secrets. Even if those algorithmic decisions might not be an immediate issue now, they very likely will be in the future and, as we know, rolling back technologies that have been in place for years is just too hard, and we instead should make sure we build them with all the ethical and social considerations in mind from the very beginning.
+
+<div class="footnote">This text is adapted from my speech at re:publica 2017 in conversation with Garry Kasparov.</div>

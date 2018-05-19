@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>On the Banality of Attacks and on Mindful Engineering</title>
+<meta name="description" content="Over the years of my experience assisting journalists and dissidents with matters of computer security, and researching the nature of the threats they face, ...">
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/nex.css">
+<link rel="canonical" href="https://nex.sx/blog/2017/01/11/on-banality-of-attacks.html">
+<link href="https://nex.sx/feed.xml" rel="alternate" type="application/atom+xml">
+<link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight|Lora" rel="stylesheet">
+</head>
+
+<body>
+<div id="particles-js"></div>
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="/">Nex</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/bio/">Biography</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/publications/">Speaking &amp; Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/art/">Art</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/blog/">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contacts/">Contacts</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div class="container content">
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+<header class="post-header">
+    <h1 class="post-title" itemprop="name headline">On the Banality of Attacks and on Mindful Engineering</h1>
+    <p class="post-meta"><time datetime="2017-01-11T00:00:00+01:00" itemprop="datePublished">Jan 11, 2017</time></p>
+</header>
+
+<div class="post-content" itemprop="articleBody">
+    <p>Over the years of my experience assisting journalists and dissidents with matters of computer security, and researching the nature of the threats they face, I learned that those who don’t have access to security solutions and do not operate in a managed environment, are often not best served by the consumer technology they are normally provided with.</p>
+
+<p>There is a recognizable difference between the design of certain consumer technology and some other. Mobile phones, for example, are increasingly provided with operating systems that are designed — for the most part, at least — around the interests of end-users. Other technology, like personal computer’s operating systems, seem to be often designed around the interests of the Enterprise sector instead. It really depends on what appears to be the primary target market for the producer.</p>
+
+<p>To me, this is signified by the fact that among the many — and I mean, really a lot of — attacks that I have observed targeting members of civil society, the use of exploits is a rare sight. Mind, not just zero-day exploits, but even just exploits at all. The large majority of attacks that I observe leverage tricks as infection vectors that are very simply (ab)using features that are exposed by the operating system or mainstream consumer software, and that seem to be mostly intended for enterprise users. Rather than a lack of sophistication on the part of the state-sponsored actors orchestrating these attacks, I believe this rather indicates a dire state of overall security controls.</p>
+
+<p>There are definitely tactical advantages in using tricks rather than exploitation. For example, abusing features exposed by operating systems like Microsoft Windows or by primary consumer applications like Microsoft Office, or Adobe Reader, requires way less situational awareness. Attackers do not need to know which architecture, build, or version of the particular software targets use, and as such there is no need to spend resources and time crafting attacks that must be reliable. This is particularly true when the target of an attacker is a diverse demographic that does not operate within an uniformed technology stack as it generally is in corporate and government environments. Additionally, while attackers often look for that one weak entry point to exploit in the operations of corporations or government institutions, the targeting of activist and dissident groups is often opportunistic — except, of course, of some individuals who are of particular interest — and attackers seek instead to just compromise as many people as possible. As a matter of fact, it is common to see the same spearphishing email being sent in carbon copy to dozen of individuals, even working for different organizations.</p>
+
+<p>For these reasons, targeting activists, journalists, and dissidents using tricks is very likely way less expensive than using exploits, and might in fact result in a higher success rate. Consequently, this is driving up the numbers of attacks we witness.</p>
+
+<p>The most common vectors for spearphishing attacks that I’ve observed in the last year involved the abuse either of Microsoft Office Macros and Packager Shell Objects, or the abuse of PowerShell or Windows Script Host. With perhaps the exception of Macros for Excel, all the remaining tricks are powered by features that are generally useless to regular users, and are rather thought for the Enterprise sector.</p>
+
+<p>For some of them, I can’t even think of any reasonable legitimate use. For example: why should one be able to embed Windows executables inside a PowerPoint title slide and automatically launch them through a custom animation? <em>(Insert here a dozen more implicit question and exclamation marks.)</em></p>
+
+<p>I understand. A lot has to do with enabling system administrators and software developers to automate some of their tasks. Yes, I am sure that PowerShell is great at that. I am also sure it is great for facilitating incident response in corporate environments. However, please don’t make those default options (or in the case of PowerShell, for example, no option at all). Organizations can provision the configuration they prefer, end users instead have to stick with what they’re given. I am all for rich features and plenty of possibilities, but I am also for security by default, not by choice.</p>
+
+<p>Let me now demystify some of the most common responses I get when similarly ranting about these particular issues.</p>
+
+<ol>
+  <li>
+    <p><strong>“There is Antivirus software, they detect all that”</strong></p>
+
+    <p>Firstly, no. Secondly, any security design that relies on the efficacy of third party products that your user must discover and acquire is a ridiculous one.</p>
+  </li>
+  <li>
+    <p><strong>“Users should learn not to click on unsolicited links and attachments”</strong></p>
+
+    <p>Links and attachments are supposed to be clicked. It’s the whole point. If you expect users to be able to discriminate naturally between a legitimate email and a malicious one, you are detached from the reality of real world attacks. Attackers commonly befriend victims, impersonate their relatives and co-workers, and create all the pre-conditions to make the attack as credible as possible.</p>
+  </li>
+  <li>
+    <p><strong>“Users are warned when they are about to execute something dangerous”</strong></p>
+
+    <div style="float: left;padding-right: 20px;padding-bottom: 5px;"><img src="/assets/blog/20170111/warning.png" /></div>
+
+    <p>That’s not always the case, but it is for some applications. However, it is also clear that vague, undescriptive warnings — like the one displayed on the side — are not enough. For example, in the case of some targeted attacks against dissidents in Iran my co-conspirator Collin and I have documented last year, the malware was delivered through malicious PowerPoint presentations that embedded multiple copies of the same executable in the title slide and launched it in the same way I described earlier. Why multiple copies? Because while at the first, or second, or third security warning dialog from Microsoft Office the victim might not allow the payload to execute, they most likely will at the fourth or fifth. We formalized this technique as Security Bypass by Annoyance.</p>
+  </li>
+  <li>
+    <p><strong>“Even if you disable one feature or another, there’s so many ways to compromise someone”</strong></p>
+
+    <p>True. It still doesn’t mean however that we should leave all doors open. Reducing the number of possible attack points allows us to deal and watch for the fewer remaining ones more efficiently.</p>
+  </li>
+</ol>
+
+<p>To this effect, my dear friend emdel and I at Security Without Borders have started aggregating tips &amp; tricks to disable some of these most problematic features in a little experimental utility that is being assembled here.</p>
+
+<p>In conclusion, I invite software producers — especially those who provide highly popular consumer applications — to stay informed on how some of their choices are being regularly abused, to stop blaming users, and to start practicing more mindful engineering.</p>
+
+</div>
+
+</article>
+
+</div>
+
+<script src="/assets/js/jquery-3.2.1.min.js"></script>
+<script src="/assets/js/popper.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+
+</body>
+</html>
