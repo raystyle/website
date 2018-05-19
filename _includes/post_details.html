@@ -1,0 +1,14 @@
+<div class="row-fluid">
+    <article class="post col-md-9 col-sm-12" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <header class="post-header">
+        <a href="{{ post.url }}"><h1 class="post-title" itemprop="name headline">{{ post.title }}</h1></a>
+        <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</p>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+        {{ content }}
+    </div>
+
+    </article>
+</div>

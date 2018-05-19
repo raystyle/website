@@ -2,6 +2,7 @@
 .container {
     /*width: 800px;*/
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 .navbar-brand {
     margin-right: 15px;
@@ -41,11 +42,18 @@ img {
 }
 h1, h2, h3, h4 {
     font-family: 'Zilla Slab Highlight', cursive;
+    color: #222;
+    a {
+        text-decoration: none;
+    }
+}
+.title-font {
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: #222;
 }
 
 /* Art page */
 .art-post {
-    margin-bottom: 50px;
 }
 
 #particles-js {
@@ -57,10 +65,9 @@ h1, h2, h3, h4 {
 
 /* Blog posts */
 .post {
-    width: 70%;
+    /*width: 70%;*/
     line-height: 1.8em;
-    margin-bottom: 5em;
-    font-family: 'Lota';
+    /*font-family: 'Lota';*/
 }
 .post img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -70,6 +77,7 @@ h1, h2, h3, h4 {
 .post h2, h3, h4 {
     margin-top: 1.2em;
     margin-bottom: 0.5em;
+    color: #222;
 }
 .post-meta {
     font-size: 16px;
