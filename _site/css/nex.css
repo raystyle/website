@@ -4,6 +4,9 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.content {
+    padding-top: 0;
+}
 .navbar-brand {
     margin-right: 15px;
 }
