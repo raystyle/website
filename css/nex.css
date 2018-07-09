@@ -69,6 +69,10 @@ h1, h2, h3, h4 {
     font-family: "Zilla", cursive;
     color: #222;
 }
+blockquote {
+    border-left: 8px solid #dedede;
+    padding-left: 1em;
+}
 
 /* Art page */
 .art-post {
