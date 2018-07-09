@@ -9,7 +9,7 @@ categories: art
 thumbnail: /assets/art/gallery-of-surveillance/morocco_rcs_mamfakinch2.png
 ---
 {:.center}
-*A first version of this work is featured in the [isthisit? issue 5](http://www.isthisitisthisit.com/issue-05) book, launched at "[Terms and Condition May Apply](http://www.isthisitisthisit.com/terms-and-conditions-may-apply)" at Annka Kultys Gallery, London.*
+*A first version of this work is featured in the [isthisit? issue 5](http://www.isthisitisthisit.com/issue-05) book, launched at "[Terms and Condition May Apply](http://www.isthisitisthisit.com/terms-and-conditions-may-apply)" exhibition at Annka Kultys Gallery, London, in August 2018.*
 
 {:.center}
 ![](/assets/art/gallery-of-surveillance/pakistan_keylogger.gif)
@@ -32,4 +32,3 @@ You can view the complete artwork at [surveillance.gallery](https://surveillance
 
 {:.center}
 ![](/assets/art/gallery-of-surveillance/uae_pegasus_ahmed_mansoor2.png)
-
