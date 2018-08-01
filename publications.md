@@ -38,6 +38,7 @@ I also occasionally write on my personal blog, please check my [Medium](https://
 
 These are reports that I have authored or co-authored that outline long research and investigative efforts.
 
+* [Amnesty International Among Targets of NSO-Powered Campaign](https://www.amnesty.org/en/latest/research/2018/08/amnesty-international-among-targets-of-nso-powered-campaign/), *Amnesty International*, 1 August 2018
 * [Human Rights Under Surveillance - Digital Threats Against Human Rights Defenders in Pakistan](https://www.amnesty.org/en/documents/asa33/8366/2018/en/), *Amnesty International*, 15 May 2018
 * [Bahamut, Pursuing a Cyber Espionage Actor in the Middle East](https://www.bellingcat.com/news/mena/2017/06/12/bahamut-pursuing-cyber-espionage-actor-middle-east/), *Bellingcat*, 12 June 2017
 * [False Friends: How Fake Accounts and Crude Malware Targeted Dissidents in Azerbaijan](https://www.amnesty.org/en/latest/research/2017/03/False-Friends-Spearphishing-of-Dissidents-in-Azerbaijan/), *Amnesty International*, 10 March 2017
