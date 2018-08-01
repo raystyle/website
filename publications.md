@@ -20,7 +20,7 @@ Following is a selection of talks I have given:
 
 ### Articles &amp; Columns
 
-I also occasionally write on my personal blog, please check my [Medium](https://medium.com/@botherder).
+I also occasionally write on my personal [blog](/blog/).
 
 * [Dissidents Have Been Abandoned and Besieged Online](https://motherboard.vice.com/en_us/article/bj5jvw/dissidents-abandoned-human-rights-iranian-surveillance-and-hacking), *Motherboard*, 13 Feb 2018
 * [Technology must foster, not hinder, free speech](http://www.dw.com/en/technology-must-foster-not-hinder-free-speech/a-39654972), *Deutsche Welle*, 13 Jul 2017
