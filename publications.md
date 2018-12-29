@@ -38,6 +38,7 @@ I also occasionally write on my personal [blog](/blog/).
 
 These are reports that I have authored or co-authored that outline long research and investigative efforts.
 
+* [When Best Practice Isn’t Good Enough: Large Campaigns of Phishing Attacks in Middle East and North Africa Target Privacy-Conscious Users](https://www.amnesty.org/en/latest/research/2018/12/when-best-practice-is-not-good-enough/), *Amnesty International*, 19 Dec 2018
 * [Amnesty International Among Targets of NSO-Powered Campaign](https://www.amnesty.org/en/latest/research/2018/08/amnesty-international-among-targets-of-nso-powered-campaign/), *Amnesty International*, 1 August 2018
 * [Human Rights Under Surveillance - Digital Threats Against Human Rights Defenders in Pakistan](https://www.amnesty.org/en/documents/asa33/8366/2018/en/), *Amnesty International*, 15 May 2018
 * [Bahamut, Pursuing a Cyber Espionage Actor in the Middle East](https://www.bellingcat.com/news/mena/2017/06/12/bahamut-pursuing-cyber-espionage-actor-middle-east/), *Bellingcat*, 12 June 2017
