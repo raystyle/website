@@ -4,12 +4,16 @@
     <header class="post-header">
         {% if page.url == "/blog/" %}Latest entry:{% endif %}
         <a href="{{ post.url }}"><h1 class="post-title" itemprop="name headline">{{ post.title }}</h1></a>
-        <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</p>
+        <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}{% if post.newsletter %}<span class="post-tags" style="margin-left: 1em;"><a href="/newsletter/">newsletter</a></span>{% endif %}</p>
     </header>
 
     <div class="post-content" itemprop="articleBody">
         {{ content }}
     </div>
+
+    {% if post.newsletter %}
+    <a href="/newsletter/"><div class="text-center" style="border:2px solid black;font-weight: bold;padding: 1em;font-size: 20px;margin-top: 3em;margin-bottom: 3em;">Subscribe to this Newsletter</div></a>
+    {% endif %}
 
     </article>
 </div>

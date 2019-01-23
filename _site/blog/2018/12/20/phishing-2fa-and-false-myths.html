@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Phishing, Two-Factor Authentication and False Myths - Nex</title>
+<meta name="description" content="Today we published a rather short report detailing a campaign of phishing attacks we monitored closely during the last year. You can find it here:">
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="/assets/font-awesome/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/css/nex.css">
+<link rel="canonical" href="https://nex.sx/blog/2018/12/20/phishing-2fa-and-false-myths.html">
+<link href="https://nex.sx/feed.xml" rel="alternate" type="application/atom+xml">
+</head>
+
+<body>
+<div id="particles-js"></div>
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="/">Nex</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/bio/">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/publications/">Speaking &amp; Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/art/">Art</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/blog/">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/newsletter/">Newsletter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contacts/">Contacts</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div class="container content">
+
+<div class="row-fluid">
+    <article class="post col-md-9 col-sm-12" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <header class="post-header">
+        
+        <a href="/blog/2018/12/20/phishing-2fa-and-false-myths.html"><h1 class="post-title" itemprop="name headline">Phishing, Two-Factor Authentication and False Myths</h1></a>
+        <p class="post-meta"><time datetime="2018-12-20T00:00:00+01:00" itemprop="datePublished">Dec 20, 2018</time><span class="post-tags" style="margin-left: 1em;"><a href="/newsletter/">newsletter</a></span></p>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+        <p>Today we published a rather short report detailing a campaign of phishing attacks we monitored closely during the last year. You can find it here:</p>
+
+<p><a href="https://www.amnesty.org/en/latest/research/2018/12/when-best-practice-is-not-good-enough/">https://www.amnesty.org/en/latest/research/2018/12/when-best-practice-is-not-good-enough/</a></p>
+
+<p>In this report we don’t get into attribution or victimology, but we provide what I believe to be an accessible read to describe how targeted phishing attacks are actually conducted by real state-sponsored attackers, in this case originating from a country in the Persian Gulf. While there are some interesting elements in the phishing of “secure email” services such as ProtonMail and Tutanota, what I found to be more fascinating and important to discuss at length, is the ability of this particular attacker to successfully bypass some forms of two-factor authentication.</p>
+
+<p>Note: although in this case two-step verification might be a more accurate term, for the sake of simplicity I am going to stick to two-factor authentication (2FA). However, if you are interested in understanding the purist differences you can find a good explanation here:</p>
+
+<p><a href="https://lifehacker.com/the-difference-between-two-factor-and-two-step-authenti-1787159870">https://lifehacker.com/the-difference-between-two-factor-and-two-step-authenti-1787159870</a></p>
+
+<p>Google offers several methods for two-factor authentication. By default it sends a verification code (normally made of 6 digits) via SMS to the registered phone number. The user would then be prompted to input the code they just received and continue with the login. Yahoo by default also provides the same login verification process. Both these services offer several other flavors of 2FA, including authenticator apps or push notifications (which consists in installing an app on the phone which will request you to manually approve a login by tapping a button, rather than copying a code).</p>
+
+<p>As we detailed in this report, the attackers have built a system cleverly designed to workaround at least the SMS based verification procedure. However, I believe the technique they used can be just as easily adapted to nearly every other form of verification including authenticator apps as well as push notifications. Essentially the attackers have built an “auto-pilot” software that automatically instruments a Google Chrome browser and directs it to the login pages of the service, such as Google or Yahoo, whenever a victim visits the phishing page and begines to provide account name and password. In the meantime, the software will in the background automatically enter the credentials to the legitimate service using the instrumented Chrome browser. If it notices that the service requires some additional information for verification purposes, such as the numerical code sent via SMS, the phishing page will simply display a clone of the original prompt and wait for the user to input the valid code that the service indeed sent to their phone at the request of the instrumented Chrome. If the victim, thinking of interacting with the original Google or Yahoo, enters the code in the phishing page, the software will copy it and send it to the original service it had open and complete the login process successfully.</p>
+
+<p>They do this using a popular automation framework called Selenium, normally used for quality assurance and automated testing of web applications.</p>
+
+<p>While SMS code verification isn’t necessarily the strongest form of 2FA (and indeed, it should be generally avoided if only because SMS is an insecure protocol), I believe that with sufficient automation it is possible to bypass other flavors as well. For example, nothing prevents an attacker to just in the same way request valid codes from an authenticator app (such as Google Authenticator) and automatically use it with the instrumented browser. Or similarly, if in the background the instrumented Chrome is being required by the service to approve the login through a push notification, an attacker should be able to lure the victim into approving the login on their phone. If the attackers managed to lure the victim to enter their password, I don’t imagine an additional piece of information or action would be much harder to solicit.</p>
+
+<p>Ultimately this form of attack can be successful if the attackers build a sufficiently adaptable automation system to interact with the original services, combined with a frontend offering credible phishing pages to the victim. Unless the targeted online services implement heuristics or other mitigations against automation (such as CAPTCHAs), it might be hard defeat this. Worryingly, building such a phishing framework is not actually that complicated, and as a matter of fact we have observed other low-sophisticated state-sponsored attackers employing just the same techniques as well.</p>
+
+<p>I am very concerned about this. Particularly when it comes to individuals at risk and activist communities, I personally witness an alarmingly common misconception over the security promise these 2FA flavors offer. As a result, some of them have internalized a false sense of security which lead them to be significantly less cautious. For this we, as a community of technologists and security trainers, are most likely to be blamed due to the inadequacy of our security education programs.</p>
+
+<p>However, this is not to say that two-factor authentication is a worthless effort, quite the contrary. ANY two-factor authentication is better than none, and there are ongoing developments in this space which will make these attacks less feasible.</p>
+
+<p>Currently, security keys supporting the U2F protocol (such as Yubikeys, Nitro keys, Solo keys, etc.) are the best available protection and I invite everyone to at least explore that option. The report provides some more elaborate considerations and recommendations about this, so I invite you to read it in full.</p>
+
+    </div>
+
+    
+    <a href="/newsletter/"><div class="text-center" style="border:2px solid black;font-weight: bold;padding: 1em;font-size: 20px;margin-top: 3em;margin-bottom: 3em;">Subscribe to this Newsletter</div></a>
+    
+
+    </article>
+</div>
+
+
+</div>
+
+<script src="/assets/js/jquery-3.2.1.min.js"></script>
+<script src="/assets/js/popper.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
+
+</body>
+</html>

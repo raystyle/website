@@ -8,6 +8,127 @@
         <atom:link href="https://nex.sx/feed.xml" rel="self" type="application/rss+xml" />
         
         <item>
+            <title>The Losing Battle of Phishing Education</title>
+            <description>&lt;p&gt;Today Google Jigsaw launched a new resource self-descriptively called Phishing Quiz. I generally applaud these efforts and I myself often recur to quizzes in my occasional trainings. This one is well designed and straightforward to use.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://phishingquiz.withgoogle.com/&quot;&gt;https://phishingquiz.withgoogle.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The declared purpose of these quizzes is to enable potential at-risk individuals to train their eyes in spotting suspicious elements in email messages and web pages. For me, the purpose is rather to highlight the difficulty in recognizing well-crafted phishing attacks, and the numerous design inconsistencies across online service providers.&lt;/p&gt;
+
+&lt;p&gt;Google’s quiz perfectly highlights many of these inconsistencies, and I invite you to try it for yourself. I did the same and at the end of it I tried to anticipate how an individual approaching this subject for the first time might leave confused.&lt;/p&gt;
+
+&lt;p&gt;Training individuals to detect phishing attacks through visual references is hard, because those don’t follow a logic shared across platforms and because they change occasionally.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;[SPOILER ALERT: I am going to reference certain results from the Google Phishing Quiz, so do not read further if you don’t want any anticipations.]&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In this quiz the primary two key visual elements the exercises are based upon are the email sender’s address and the links contained in the body of the message. Ideally, through this, individuals should identify patterns and construct a mental model to apply to any similar real-case scenario. However, we immediately see inconsistencies.&lt;/p&gt;
+
+&lt;p&gt;In one exercise we are suggested that an email is in fact legitimate because, along with the validity of a contained link, the sender’s email address contain the domain @dropboxmail.com, which is an actual domain in use by Dropbox instead of the more intuitive @dropbox.com. At the same time, however, a different exercise alerts us that an email sender with @google.support is malicious because the domain is not in use by Google.&lt;/p&gt;
+
+&lt;p&gt;Perhaps an agreement among service providers to all adopt a similar scheme would be beneficial. For example, instead of using various domain names, all should stick to their primary domain for email communications, e.g. &lt;em&gt;noreply@dropbox.com&lt;/em&gt; or &lt;em&gt;noreply@google.com&lt;/em&gt; instead of &lt;em&gt;dropboxmail.com&lt;/em&gt; or &lt;em&gt;googlemail.com&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;When it comes to links contained in the body of email messages we could expect similar confusion. Forged domains intended to deceive (such as “&lt;em&gt;paypal.com-myaccount-login-issuespayment-global.realbaddomain.com&lt;/em&gt;”) should immediately stand out, but we also need to be alert of other more insidious techniques!&lt;/p&gt;
+
+&lt;p&gt;As Google’s quiz exemplifies, a phishing link could come in the form of an actual Google domain for example:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;https://google.com/amp/gmail-account-activation.support/&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This would be a valid Google link redirecting to an hypothetical phishing site. Similarly, an email could also contain a valid Google link that will lead to a prompt requesting a malicious app to be enabled on our Gmail account. Ironically, even the domain of the quiz could be deceiving: what is withgoogle.com?&lt;/p&gt;
+
+&lt;p&gt;Essentially we are demanding individuals to not only be able to discern clearly forged domains from legitimate sites, but also to be aware of all the possible tricks to abuse existing functionality (such as OAuth&lt;a href=&quot;https://duo.com/blog/gmail-oauth-phishing-goes-viral&quot;&gt;1&lt;/a&gt; or redirects). Additionally, we are demanding them to be aware of what email addresses or message formats are commonly used by legitimate services at any point in time.&lt;/p&gt;
+
+&lt;p&gt;This is unattainable. If the burden relies so heavily on users, the underlying technology appears inadequate to me.&lt;/p&gt;
+
+&lt;p&gt;Without entering in the merit of mitigations such as two-factor authentication (which I discussed in the previous newsletter), or with other complications such as spoofing, we have identified enough booby traps already to likely dissuade most people from learning about online accounts security.&lt;/p&gt;
+
+&lt;p&gt;We need more consistency across services. Consistency of procedures, language and available mitigations. And perhaps it is time to sacrifice some convenience and functionality in favor of a smaller attack surface.&lt;/p&gt;
+
+&lt;p&gt;p.s.: As you might have noticed, I am making excessive use of the term “individuals”. I am purposefully trying to avoid “users”, which I generally don’t like. If you have any recommendations for more suitable words, I would very much appreciate them!&lt;/p&gt;
+
+</description>
+            <pubDate>Tue, 22 Jan 2019 00:00:00 +0100</pubDate>
+            <link>https://nex.sx//blog/2019/01/22/the-losing-battle-of-phishing-education.html</link>
+            <guid isPermaLink="true">https://nex.sx//blog/2019/01/22/the-losing-battle-of-phishing-education.html</guid>
+        </item>
+        
+        <item>
+            <title>Phishing, Two-Factor Authentication and False Myths</title>
+            <description>&lt;p&gt;Today we published a rather short report detailing a campaign of phishing attacks we monitored closely during the last year. You can find it here:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.amnesty.org/en/latest/research/2018/12/when-best-practice-is-not-good-enough/&quot;&gt;https://www.amnesty.org/en/latest/research/2018/12/when-best-practice-is-not-good-enough/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In this report we don’t get into attribution or victimology, but we provide what I believe to be an accessible read to describe how targeted phishing attacks are actually conducted by real state-sponsored attackers, in this case originating from a country in the Persian Gulf. While there are some interesting elements in the phishing of “secure email” services such as ProtonMail and Tutanota, what I found to be more fascinating and important to discuss at length, is the ability of this particular attacker to successfully bypass some forms of two-factor authentication.&lt;/p&gt;
+
+&lt;p&gt;Note: although in this case two-step verification might be a more accurate term, for the sake of simplicity I am going to stick to two-factor authentication (2FA). However, if you are interested in understanding the purist differences you can find a good explanation here:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lifehacker.com/the-difference-between-two-factor-and-two-step-authenti-1787159870&quot;&gt;https://lifehacker.com/the-difference-between-two-factor-and-two-step-authenti-1787159870&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Google offers several methods for two-factor authentication. By default it sends a verification code (normally made of 6 digits) via SMS to the registered phone number. The user would then be prompted to input the code they just received and continue with the login. Yahoo by default also provides the same login verification process. Both these services offer several other flavors of 2FA, including authenticator apps or push notifications (which consists in installing an app on the phone which will request you to manually approve a login by tapping a button, rather than copying a code).&lt;/p&gt;
+
+&lt;p&gt;As we detailed in this report, the attackers have built a system cleverly designed to workaround at least the SMS based verification procedure. However, I believe the technique they used can be just as easily adapted to nearly every other form of verification including authenticator apps as well as push notifications. Essentially the attackers have built an “auto-pilot” software that automatically instruments a Google Chrome browser and directs it to the login pages of the service, such as Google or Yahoo, whenever a victim visits the phishing page and begines to provide account name and password. In the meantime, the software will in the background automatically enter the credentials to the legitimate service using the instrumented Chrome browser. If it notices that the service requires some additional information for verification purposes, such as the numerical code sent via SMS, the phishing page will simply display a clone of the original prompt and wait for the user to input the valid code that the service indeed sent to their phone at the request of the instrumented Chrome. If the victim, thinking of interacting with the original Google or Yahoo, enters the code in the phishing page, the software will copy it and send it to the original service it had open and complete the login process successfully.&lt;/p&gt;
+
+&lt;p&gt;They do this using a popular automation framework called Selenium, normally used for quality assurance and automated testing of web applications.&lt;/p&gt;
+
+&lt;p&gt;While SMS code verification isn’t necessarily the strongest form of 2FA (and indeed, it should be generally avoided if only because SMS is an insecure protocol), I believe that with sufficient automation it is possible to bypass other flavors as well. For example, nothing prevents an attacker to just in the same way request valid codes from an authenticator app (such as Google Authenticator) and automatically use it with the instrumented browser. Or similarly, if in the background the instrumented Chrome is being required by the service to approve the login through a push notification, an attacker should be able to lure the victim into approving the login on their phone. If the attackers managed to lure the victim to enter their password, I don’t imagine an additional piece of information or action would be much harder to solicit.&lt;/p&gt;
+
+&lt;p&gt;Ultimately this form of attack can be successful if the attackers build a sufficiently adaptable automation system to interact with the original services, combined with a frontend offering credible phishing pages to the victim. Unless the targeted online services implement heuristics or other mitigations against automation (such as CAPTCHAs), it might be hard defeat this. Worryingly, building such a phishing framework is not actually that complicated, and as a matter of fact we have observed other low-sophisticated state-sponsored attackers employing just the same techniques as well.&lt;/p&gt;
+
+&lt;p&gt;I am very concerned about this. Particularly when it comes to individuals at risk and activist communities, I personally witness an alarmingly common misconception over the security promise these 2FA flavors offer. As a result, some of them have internalized a false sense of security which lead them to be significantly less cautious. For this we, as a community of technologists and security trainers, are most likely to be blamed due to the inadequacy of our security education programs.&lt;/p&gt;
+
+&lt;p&gt;However, this is not to say that two-factor authentication is a worthless effort, quite the contrary. ANY two-factor authentication is better than none, and there are ongoing developments in this space which will make these attacks less feasible.&lt;/p&gt;
+
+&lt;p&gt;Currently, security keys supporting the U2F protocol (such as Yubikeys, Nitro keys, Solo keys, etc.) are the best available protection and I invite everyone to at least explore that option. The report provides some more elaborate considerations and recommendations about this, so I invite you to read it in full.&lt;/p&gt;
+</description>
+            <pubDate>Thu, 20 Dec 2018 00:00:00 +0100</pubDate>
+            <link>https://nex.sx//blog/2018/12/20/phishing-2fa-and-false-myths.html</link>
+            <guid isPermaLink="true">https://nex.sx//blog/2018/12/20/phishing-2fa-and-false-myths.html</guid>
+        </item>
+        
+        <item>
+            <title>NSO Group and the Surveillance of Saudi Dissidents</title>
+            <description>&lt;p&gt;NSO Group, the infamous Israeli surveillance company, has been under a lot of fire recently. If you remember, in August we published a report[1] in which we detailed how one of our staff members at Amnesty International (who was working on the issue of the Saudi women activists arrested[2]) was targeted using the mobile surveillance suite Pegasus, sold by NSO. In that report we also mentioned a Saudi human rights defender who we discovered also being targeted, whom identity we didn’t reveal at his request. Since then, he spontaneously decided to identify himself in the press as Yahya Assiri.&lt;/p&gt;
+
+&lt;p&gt;While at the time we discovered these attacks in early June they seemed like isolated events, over the months it became obvious that a larger campaign of surveillance was being conducted (most likely by the Saudi government) in a coordinated attempt to suppress dissent that culminated with the murder of Jamal Khashoggi.&lt;/p&gt;
+
+&lt;p&gt;On October 1st, right before the news of the murder, Citizen Lab discovered another Saudi dissident based in Canada, Omar Abdulaziz, was also targeted with NSO Group’s spyware[3]. In November, Forbes reported that yet another Saudi dissident, the YouTube comic and satirist Ghanem Almasarir, was also targeted with Pegasus[4].&lt;/p&gt;
+
+&lt;p&gt;In October, we released a list[5] of more than 600 domains used to deliver NSO Group’s exploits through SMS or WhatsApp messages. Recently we have also announced that we’re demanding for NSO Group’s export license to be revoked and we are considering legal action against the company[6]. Few days ago, Omar Abdulaziz also announced that he’s suing NSO Group in connection with the infection of his device, which he claims was purposefully targeted by the Saudi authorities to snoop on his communications with Khashoggi[7].&lt;/p&gt;
+
+&lt;p&gt;If all this wasn’t enough, Citizen Lab published yet another report detailing how Pegasus was used in Mexico to target journalists colleagues of a reporter who was gunned down in 2017, likely in connection with this investigations into the cartels[8]&lt;/p&gt;
+
+&lt;p&gt;I have worked on plenty of investigations into surveillance companies, and uncovered numerous abuses of their products. However, the amount of cases where NSO Group’s Pegasus was found used to repress dissent and monitor reporters and human rights defenders is unprecedented. Why is that?&lt;/p&gt;
+
+&lt;p&gt;This piling number of abuses could very likely be a direct result of the company’s lack of proper human rights due diligence. According to an investigation by Haaretz, NSO Group indeed sold their products to Saudi Arabia for a wowing $55 million, apparently in defiance of the Israeli Ministry of Defence.&lt;/p&gt;
+
+&lt;p&gt;Additionally, it could be that the efficacy and the sophistication of the attack suite that NSO Group provides, and the immense power that is derived, might in fact be an irresistible incentive for ruthless governments to use it even more so against dissidents, journalists and human rights defenders.&lt;/p&gt;
+
+&lt;p&gt;While so far we have only observed attacks being delivered through SMS or WhatsApp messages requiring the victim to click on a link in order to activate the exploitation and infection, the investigation by Haaretz suggests that NSO Group might have sold Saudi Arabia their “0-click” solution as well. This would mean that Saudi Arabia, as well as any other government NSO Group might have sold this to, could have the ability to remotely compromise any iPhone without sending anything visible to the victims and without requiring them to click on any link. This could be theoretically possible if NSO Group would have knowledge of vulnerabilities in the radio components of the phone.&lt;/p&gt;
+
+&lt;p&gt;Currently there is no evidence NSO Group or Saudi Arabia have access to such exploits. To the contrary, the fact that messages with “1-click” exploit links are being found around and used so widely rather suggests the opposite. However, if those claims are proved to be true, the effects of such a capability in the wrong hands could be catastrophic.&lt;/p&gt;
+
+&lt;p&gt;With all attention and the mounting legal trouble, it is unclear what will happen with NSO Group. In the meantime, our investigations continue.&lt;/p&gt;
+
+&lt;p&gt;We are trying to identify other journalists and human rights defenders who might have also been similarly targeted with Pegasus. If you have any information to share, please do get in contact.&lt;/p&gt;
+
+&lt;p&gt;I can be found as @nex on Wire and @nex on Keybase, as well as via email:&lt;/p&gt;
+
+&lt;p&gt;https://nex.sx/contacts/&lt;/p&gt;
+
+&lt;p&gt;[1] &lt;a href=&quot;https://www.amnesty.org/en/latest/research/2018/08/amnesty-international-among-targets-of-nso-powered-campaign/&quot;&gt;Amnesty International Among Targets of NSO-powered Campaign | Amnesty International&lt;/a&gt;
+[2] &lt;a href=&quot;https://www.theguardian.com/world/2018/may/19/saudi-arabia-womens-rights-activists-arrested-before-lifting-of-driving-ban&quot;&gt;Saudi Arabia: women’s rights activists arrested before lifting of driving ban | World news | The Guardian&lt;/a&gt;
+[3] &lt;a href=&quot;https://www.cbc.ca/news/technology/omar-abdulaziz-spyware-saudi-arabia-nso-citizen-lab-quebec-1.4845179&quot;&gt;A Quebecer spoke out against the Saudis - then learned he had spyware on his iPhone | CBC News&lt;/a&gt;
+[4] &lt;a href=&quot;https://www.forbes.com/sites/thomasbrewster/2018/11/21/exclusive-saudi-dissidents-hit-with-stealth-iphone-spyware-before-khashoggis-murder/#5f7751dc2e8b&quot;&gt;Exclusive: Saudi Dissidents Hit With Stealth iPhone Spyware Before Khashoggi’s Murder&lt;/a&gt;
+[5] &lt;a href=&quot;https://github.com/AmnestyTech/investigations/blob/master/2018-08-01_nso/indicators.csv&quot;&gt;investigations/indicators.csv at master Â· AmnestyTech/investigations Â· GitHub&lt;/a&gt;
+[6] &lt;a href=&quot;https://www.amnesty.org/en/latest/news/2018/11/israelroguenso-group-must-have-licence-revoked-over-controversial-surveillance-software/&quot;&gt;Israel: â€˜Rogueâ€™ NSO Group must have licence revoked over controversial surveillance software | Amnesty International&lt;/a&gt;
+[7] &lt;a href=&quot;https://www.nytimes.com/2018/12/02/world/middleeast/saudi-khashoggi-spyware-israel.html&quot;&gt;Israeli Software Helped Saudis Spy on Khashoggi, Lawsuit Says - The New York Times&lt;/a&gt;
+[8] &lt;a href=&quot;https://citizenlab.ca/2018/11/mexican-journalists-investigating-cartels-targeted-nso-spyware-following-assassination-colleague/&quot;&gt;Reckless VI: Mexican Journalists Investigating Cartels Targeted with NSO Spyware Following Assassination of Colleague - The Citizen Lab&lt;/a&gt;&lt;/p&gt;
+</description>
+            <pubDate>Wed, 05 Dec 2018 00:00:00 +0100</pubDate>
+            <link>https://nex.sx//blog/2018/12/05/nso-group-and-surveillance-of-saudi-dissidents.html</link>
+            <guid isPermaLink="true">https://nex.sx//blog/2018/12/05/nso-group-and-surveillance-of-saudi-dissidents.html</guid>
+        </item>
+        
+        <item>
             <title>Manipulation of Public Opinion</title>
             <description>&lt;p&gt;Manipulation of public opinion clearly isn’t anything new. It has traditionally been achieved by repeating over and over a specific message in the public and to the media to install a particular narrative that serves one’s interests. This commonly manifests with catchphrases which, just like commercial advertisement, are repeated endlessly until they become permanently ingrained in the public consciousness. We’ve seen it for example with the “blood on his hands” rhetoric being used against Snowden and Manning in the last years. We’re seeing it recently in the UK with “coalition of chaos” being used by the conservatives to refer to the opposition. And we’ve seen countless examples of that also by Trump during the 2016 campaign.&lt;/p&gt;
 
@@ -534,29 +655,6 @@ However, if export controls can be a viable tool for punishing the ones repeated
             <pubDate>Tue, 27 Jan 2015 00:00:00 +0100</pubDate>
             <link>https://nex.sx//blog/2015/01/27/everything-we-know-of-nsa-and-five-eyes-malware.html</link>
             <guid isPermaLink="true">https://nex.sx//blog/2015/01/27/everything-we-know-of-nsa-and-five-eyes-malware.html</guid>
-        </item>
-        
-        <item>
-            <title>Manipulation of Terror</title>
-            <description>&lt;p&gt;I’m angry. I was angry when I woke up with the news of the inhuman attacks in France and I’m angrier now as I observe the reactions. Nationalists are spreading hate, fanatics are attacking Muslims, governments are capitalizing on this tragedy.&lt;/p&gt;
-
-&lt;div style=&quot;float: right;padding-left: 20px;padding-bottom: 5px;&quot;&gt;&lt;a href=&quot;http://order-order.com/2015/01/12/richs-monday-morning-view-99/&quot;&gt;&lt;img src=&quot;/assets/blog/20150112/hypocrites.jpg&quot; height=&quot;600px&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
-
-&lt;p&gt;While millions verse on the streets to defend freedom of the press, world leaders join the chorus. How convenient it is to stand united for our liberties now, while not long ago our same governments were &lt;a href=&quot;http://www.dailymail.co.uk/news/article-2697194/Outrage-France-country-world-ban-pro-Palestine-demos.html&quot;&gt;banning peaceful demonstrations&lt;/a&gt;, &lt;a href=&quot;http://www.nytimes.com/2013/08/22/us/manning-sentenced-for-leaking-government-secrets.html?pagewanted=all&amp;amp;_r=0&quot;&gt;jailing whistleblowers&lt;/a&gt;, &lt;a href=&quot;https://freedom.press/blog/2014/08/documenting-arrests-journalists-ferguson&quot;&gt;arresting journalists&lt;/a&gt;, and &lt;a href=&quot;http://www.theguardian.com/uk-news/2014/jan/31/footage-released-guardian-editors-snowden-hard-drives-gchq&quot;&gt;threatening news organisations&lt;/a&gt;. Free speech was not attacked just these last few days, but it has been undermined in Western societies for a long time, often by the same leaders that are now waving &lt;em&gt;Je suis Charlie&lt;/em&gt; signs.&lt;/p&gt;
-
-&lt;p&gt;To seal this climate of hypocrisy, even delegations from some of the most shameless oppressors of free press &lt;a href=&quot;https://storify.com/tometty/staunch-defenders-of-free-press-attend-solidarity&quot;&gt;joined the march&lt;/a&gt; in Paris yesterday. Egypt, Turkey, Saudi Arabia, United Arab Emirates and others were all there chanting “freedom of speech” along with the French population, while back home bloggers and journalists are tortured, jailed and their voices are being suppressed. Disgusting.&lt;/p&gt;
-
-&lt;p&gt;And while the world mourns the victims of hate, the machinery of control will get in motion. We’ll hear calls for censorship, for tighter border control and we’ll see intelligence agencies mask their incompetence blaming their failures on a lack of resources. Surveillance reforms will halt, our debate on privacy will be deemed insensitive and we’ll be called irresponsible for publishing more.&lt;/p&gt;
-
-&lt;p&gt;This shouldn’t be a moment to give in for more control and to lose the small victories we conquered in the last years. It shouldn’t be a moment to think of retaliation. It should be a moment to demand answers on how even the authoritarian solutions of surveillance and war we accepted after 9/11 failed us again. It should be a moment of realization that fear and hysteria didn’t help us, and that we should know better. The last decade of war on terror left an entire region devastated, our liberties corroded and gave birth to even more hate and a militarized Internet. Let’s not repeat the same mistakes.&lt;/p&gt;
-
-&lt;p&gt;Censorship won’t stop the criminals. Ignorance won’t protect the innocents. Mass surveillance won’t save lives. War won’t bring democracy.&lt;/p&gt;
-
-&lt;p&gt;Liberty, however, might bring some peace.&lt;/p&gt;
-</description>
-            <pubDate>Mon, 12 Jan 2015 00:00:00 +0100</pubDate>
-            <link>https://nex.sx//blog/2015/01/12/manipulation-of-terror.html</link>
-            <guid isPermaLink="true">https://nex.sx//blog/2015/01/12/manipulation-of-terror.html</guid>
         </item>
         
     </channel>
