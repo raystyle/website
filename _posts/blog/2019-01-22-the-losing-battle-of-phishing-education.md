@@ -30,7 +30,7 @@ As Google's quiz exemplifies, a phishing link could come in the form of an actua
 
 This would be a valid Google link redirecting to an hypothetical phishing site. Similarly, an email could also contain a valid Google link that will lead to a prompt requesting a malicious app to be enabled on our Gmail account. Ironically, even the domain of the quiz could be deceiving: what is withgoogle.com?
 
-Essentially we are demanding individuals to not only be able to discern clearly forged domains from legitimate sites, but also to be aware of all the possible tricks to abuse existing functionality (such as OAuth[1] or redirects). Additionally, we are demanding them to be aware of what email addresses or message formats are commonly used by legitimate services at any point in time.
+Essentially we are demanding individuals to not only be able to discern clearly forged domains from legitimate sites, but also to be aware of all the possible tricks to abuse existing functionality (such as OAuth<sup id="a1">[1](#f1)</sup> or redirects). Additionally, we are demanding them to be aware of what email addresses or message formats are commonly used by legitimate services at any point in time.
 
 This is unattainable. If the burden relies so heavily on users, the underlying technology appears inadequate to me.
 
@@ -40,4 +40,6 @@ We need more consistency across services. Consistency of procedures, language an
 
 p.s.: As you might have noticed, I am making excessive use of the term "individuals". I am purposefully trying to avoid "users", which I generally don't like. If you have any recommendations for more suitable words, I would very much appreciate them!
 
-[1]: https://duo.com/blog/gmail-oauth-phishing-goes-viral
+---
+
+<span id="f1"></span>1: [GMail OAuth Phishing Goes Viral](https://duo.com/blog/gmail-oauth-phishing-goes-viral) [↩](#a1)

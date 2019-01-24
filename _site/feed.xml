@@ -35,7 +35,7 @@
 
 &lt;p&gt;This would be a valid Google link redirecting to an hypothetical phishing site. Similarly, an email could also contain a valid Google link that will lead to a prompt requesting a malicious app to be enabled on our Gmail account. Ironically, even the domain of the quiz could be deceiving: what is withgoogle.com?&lt;/p&gt;
 
-&lt;p&gt;Essentially we are demanding individuals to not only be able to discern clearly forged domains from legitimate sites, but also to be aware of all the possible tricks to abuse existing functionality (such as OAuth&lt;a href=&quot;https://duo.com/blog/gmail-oauth-phishing-goes-viral&quot;&gt;1&lt;/a&gt; or redirects). Additionally, we are demanding them to be aware of what email addresses or message formats are commonly used by legitimate services at any point in time.&lt;/p&gt;
+&lt;p&gt;Essentially we are demanding individuals to not only be able to discern clearly forged domains from legitimate sites, but also to be aware of all the possible tricks to abuse existing functionality (such as OAuth&lt;sup id=&quot;a1&quot;&gt;&lt;a href=&quot;#f1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; or redirects). Additionally, we are demanding them to be aware of what email addresses or message formats are commonly used by legitimate services at any point in time.&lt;/p&gt;
 
 &lt;p&gt;This is unattainable. If the burden relies so heavily on users, the underlying technology appears inadequate to me.&lt;/p&gt;
 
@@ -45,6 +45,9 @@
 
 &lt;p&gt;p.s.: As you might have noticed, I am making excessive use of the term “individuals”. I am purposefully trying to avoid “users”, which I generally don’t like. If you have any recommendations for more suitable words, I would very much appreciate them!&lt;/p&gt;
 
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span id=&quot;f1&quot;&gt;&lt;/span&gt;1: &lt;a href=&quot;https://duo.com/blog/gmail-oauth-phishing-goes-viral&quot;&gt;GMail OAuth Phishing Goes Viral&lt;/a&gt; &lt;a href=&quot;#a1&quot;&gt;↩&lt;/a&gt;&lt;/p&gt;
 </description>
             <pubDate>Tue, 22 Jan 2019 00:00:00 +0100</pubDate>
             <link>https://nex.sx//blog/2019/01/22/the-losing-battle-of-phishing-education.html</link>
@@ -86,15 +89,15 @@
         
         <item>
             <title>NSO Group and the Surveillance of Saudi Dissidents</title>
-            <description>&lt;p&gt;NSO Group, the infamous Israeli surveillance company, has been under a lot of fire recently. If you remember, in August we published a report[1] in which we detailed how one of our staff members at Amnesty International (who was working on the issue of the Saudi women activists arrested[2]) was targeted using the mobile surveillance suite Pegasus, sold by NSO. In that report we also mentioned a Saudi human rights defender who we discovered also being targeted, whom identity we didn’t reveal at his request. Since then, he spontaneously decided to identify himself in the press as Yahya Assiri.&lt;/p&gt;
+            <description>&lt;p&gt;NSO Group, the infamous Israeli surveillance company, has been under a lot of fire recently. If you remember, in August we published a report&lt;sup id=&quot;a1&quot;&gt;&lt;a href=&quot;#f1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; in which we detailed how one of our staff members at Amnesty International (who was working on the issue of the Saudi women activists arrested&lt;sup id=&quot;a2&quot;&gt;&lt;a href=&quot;#f2&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;) was targeted using the mobile surveillance suite Pegasus, sold by NSO. In that report we also mentioned a Saudi human rights defender who we discovered also being targeted, whom identity we didn’t reveal at his request. Since then, he spontaneously decided to identify himself in the press as Yahya Assiri.&lt;/p&gt;
 
 &lt;p&gt;While at the time we discovered these attacks in early June they seemed like isolated events, over the months it became obvious that a larger campaign of surveillance was being conducted (most likely by the Saudi government) in a coordinated attempt to suppress dissent that culminated with the murder of Jamal Khashoggi.&lt;/p&gt;
 
-&lt;p&gt;On October 1st, right before the news of the murder, Citizen Lab discovered another Saudi dissident based in Canada, Omar Abdulaziz, was also targeted with NSO Group’s spyware[3]. In November, Forbes reported that yet another Saudi dissident, the YouTube comic and satirist Ghanem Almasarir, was also targeted with Pegasus[4].&lt;/p&gt;
+&lt;p&gt;On October 1st, right before the news of the murder, Citizen Lab discovered another Saudi dissident based in Canada, Omar Abdulaziz, was also targeted with NSO Group’s spyware&lt;sup id=&quot;a3&quot;&gt;&lt;a href=&quot;#f3&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;. In November, Forbes reported that yet another Saudi dissident, the YouTube comic and satirist Ghanem Almasarir, was also targeted with Pegasus&lt;sup id=&quot;a4&quot;&gt;&lt;a href=&quot;#f4&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
-&lt;p&gt;In October, we released a list[5] of more than 600 domains used to deliver NSO Group’s exploits through SMS or WhatsApp messages. Recently we have also announced that we’re demanding for NSO Group’s export license to be revoked and we are considering legal action against the company[6]. Few days ago, Omar Abdulaziz also announced that he’s suing NSO Group in connection with the infection of his device, which he claims was purposefully targeted by the Saudi authorities to snoop on his communications with Khashoggi[7].&lt;/p&gt;
+&lt;p&gt;In October, we released a list&lt;sup id=&quot;a5&quot;&gt;&lt;a href=&quot;#f5&quot;&gt;5&lt;/a&gt;&lt;/sup&gt; of more than 600 domains used to deliver NSO Group’s exploits through SMS or WhatsApp messages. Recently we have also announced that we’re demanding for NSO Group’s export license to be revoked and we are considering legal action against the company&lt;sup id=&quot;a6&quot;&gt;&lt;a href=&quot;#f6&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;. Few days ago, Omar Abdulaziz also announced that he’s suing NSO Group in connection with the infection of his device, which he claims was purposefully targeted by the Saudi authorities to snoop on his communications with Khashoggi&lt;sup id=&quot;a7&quot;&gt;&lt;a href=&quot;#f7&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
 
-&lt;p&gt;If all this wasn’t enough, Citizen Lab published yet another report detailing how Pegasus was used in Mexico to target journalists colleagues of a reporter who was gunned down in 2017, likely in connection with this investigations into the cartels[8]&lt;/p&gt;
+&lt;p&gt;If all this wasn’t enough, Citizen Lab published yet another report detailing how Pegasus was used in Mexico to target journalists colleagues of a reporter who was gunned down in 2017, likely in connection with this investigations into the cartels&lt;sup id=&quot;a8&quot;&gt;&lt;a href=&quot;#f8&quot;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;p&gt;I have worked on plenty of investigations into surveillance companies, and uncovered numerous abuses of their products. However, the amount of cases where NSO Group’s Pegasus was found used to repress dissent and monitor reporters and human rights defenders is unprecedented. Why is that?&lt;/p&gt;
 
@@ -114,14 +117,16 @@
 
 &lt;p&gt;https://nex.sx/contacts/&lt;/p&gt;
 
-&lt;p&gt;[1] &lt;a href=&quot;https://www.amnesty.org/en/latest/research/2018/08/amnesty-international-among-targets-of-nso-powered-campaign/&quot;&gt;Amnesty International Among Targets of NSO-powered Campaign | Amnesty International&lt;/a&gt;
-[2] &lt;a href=&quot;https://www.theguardian.com/world/2018/may/19/saudi-arabia-womens-rights-activists-arrested-before-lifting-of-driving-ban&quot;&gt;Saudi Arabia: women’s rights activists arrested before lifting of driving ban | World news | The Guardian&lt;/a&gt;
-[3] &lt;a href=&quot;https://www.cbc.ca/news/technology/omar-abdulaziz-spyware-saudi-arabia-nso-citizen-lab-quebec-1.4845179&quot;&gt;A Quebecer spoke out against the Saudis - then learned he had spyware on his iPhone | CBC News&lt;/a&gt;
-[4] &lt;a href=&quot;https://www.forbes.com/sites/thomasbrewster/2018/11/21/exclusive-saudi-dissidents-hit-with-stealth-iphone-spyware-before-khashoggis-murder/#5f7751dc2e8b&quot;&gt;Exclusive: Saudi Dissidents Hit With Stealth iPhone Spyware Before Khashoggi’s Murder&lt;/a&gt;
-[5] &lt;a href=&quot;https://github.com/AmnestyTech/investigations/blob/master/2018-08-01_nso/indicators.csv&quot;&gt;investigations/indicators.csv at master Â· AmnestyTech/investigations Â· GitHub&lt;/a&gt;
-[6] &lt;a href=&quot;https://www.amnesty.org/en/latest/news/2018/11/israelroguenso-group-must-have-licence-revoked-over-controversial-surveillance-software/&quot;&gt;Israel: â€˜Rogueâ€™ NSO Group must have licence revoked over controversial surveillance software | Amnesty International&lt;/a&gt;
-[7] &lt;a href=&quot;https://www.nytimes.com/2018/12/02/world/middleeast/saudi-khashoggi-spyware-israel.html&quot;&gt;Israeli Software Helped Saudis Spy on Khashoggi, Lawsuit Says - The New York Times&lt;/a&gt;
-[8] &lt;a href=&quot;https://citizenlab.ca/2018/11/mexican-journalists-investigating-cartels-targeted-nso-spyware-following-assassination-colleague/&quot;&gt;Reckless VI: Mexican Journalists Investigating Cartels Targeted with NSO Spyware Following Assassination of Colleague - The Citizen Lab&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;span id=&quot;f1&quot;&gt;&lt;/span&gt;1: &lt;a href=&quot;https://www.amnesty.org/en/latest/research/2018/08/amnesty-international-among-targets-of-nso-powered-campaign/&quot;&gt;Amnesty International Among Targets of NSO-powered Campaign&lt;/a&gt; &lt;a href=&quot;#a1&quot;&gt;↩&lt;/a&gt;&lt;br /&gt;
+&lt;span id=&quot;f2&quot;&gt;&lt;/span&gt;2: &lt;a href=&quot;https://www.theguardian.com/world/2018/may/19/saudi-arabia-womens-rights-activists-arrested-before-lifting-of-driving-ban&quot;&gt;Saudi Arabia: women’s rights activists arrested before lifting of driving ban&lt;/a&gt; &lt;a href=&quot;#a2&quot;&gt;↩&lt;/a&gt;&lt;br /&gt;
+&lt;span id=&quot;f3&quot;&gt;&lt;/span&gt;3: &lt;a href=&quot;https://www.cbc.ca/news/technology/omar-abdulaziz-spyware-saudi-arabia-nso-citizen-lab-quebec-1.4845179&quot;&gt;A Quebecer spoke out against the Saudis - then learned he had spyware on his iPhone&lt;/a&gt; &lt;a href=&quot;#a3&quot;&gt;↩&lt;/a&gt;&lt;br /&gt;
+&lt;span id=&quot;f4&quot;&gt;&lt;/span&gt;4: &lt;a href=&quot;https://www.forbes.com/sites/thomasbrewster/2018/11/21/exclusive-saudi-dissidents-hit-with-stealth-iphone-spyware-before-khashoggis-murder/#5f7751dc2e8b&quot;&gt;Exclusive: Saudi Dissidents Hit With Stealth iPhone Spyware Before Khashoggi’s Murder&lt;/a&gt; &lt;a href=&quot;#a4&quot;&gt;↩&lt;/a&gt;&lt;br /&gt;
+&lt;span id=&quot;f5&quot;&gt;&lt;/span&gt;5: &lt;a href=&quot;https://github.com/AmnestyTech/investigations/blob/master/2018-08-01_nso/indicators.csv&quot;&gt;investigations/indicators.csv&lt;/a&gt; &lt;a href=&quot;#a5&quot;&gt;↩&lt;/a&gt;&lt;br /&gt;
+&lt;span id=&quot;f6&quot;&gt;&lt;/span&gt;6: &lt;a href=&quot;https://www.amnesty.org/en/latest/news/2018/11/israelroguenso-group-must-have-licence-revoked-over-controversial-surveillance-software/&quot;&gt;Israel: Rogue NSO Group must have licence revoked over controversial surveillance software&lt;/a&gt; &lt;a href=&quot;#a6&quot;&gt;↩&lt;/a&gt;&lt;br /&gt;
+&lt;span id=&quot;f7&quot;&gt;&lt;/span&gt;7: &lt;a href=&quot;https://www.nytimes.com/2018/12/02/world/middleeast/saudi-khashoggi-spyware-israel.html&quot;&gt;Israeli Software Helped Saudis Spy on Khashoggi, Lawsuit Says&lt;/a&gt; &lt;a href=&quot;#a7&quot;&gt;↩&lt;/a&gt;&lt;br /&gt;
+&lt;span id=&quot;f8&quot;&gt;&lt;/span&gt;8: &lt;a href=&quot;https://citizenlab.ca/2018/11/mexican-journalists-investigating-cartels-targeted-nso-spyware-following-assassination-colleague/&quot;&gt;Reckless VI: Mexican Journalists Investigating Cartels Targeted with NSO Spyware Following Assassination of Colleague&lt;/a&gt; &lt;a href=&quot;#a8&quot;&gt;↩&lt;/a&gt;&lt;/p&gt;
 </description>
             <pubDate>Wed, 05 Dec 2018 00:00:00 +0100</pubDate>
             <link>https://nex.sx//blog/2018/12/05/nso-group-and-surveillance-of-saudi-dissidents.html</link>
