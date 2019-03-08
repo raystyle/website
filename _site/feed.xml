@@ -8,6 +8,41 @@
         <atom:link href="https://nex.sx/feed.xml" rel="self" type="application/rss+xml" />
         
         <item>
+            <title>Phishing Attacks Using Third-Party Applications Against Egyptian Civil Society Organizations</title>
+            <description>&lt;p&gt;I am aware that most of my recent newsletters dealt with the issue of account security and phishing, but I have one more story on this to share with you. I suppose this is indicative of the sad nature of the digital (in)security we face today. I promise, in the newsletters to come I will cover other topics as well.&lt;/p&gt;
+
+&lt;p&gt;Yesterday, we published a short blog post warning of an ongoing campaign of phishing attacks targeting human rights defenders and NGOs from Egypt.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.amnesty.org/en/latest/research/2019/03/phishing-attacks-using-third-party-applications-against-egyptian-civil-society-organizations/&quot;&gt;https://www.amnesty.org/en/latest/research/2019/03/phishing-attacks-using-third-party-applications-against-egyptian-civil-society-organizations/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;To quote directly from the report:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Since January 2019 several human rights defenders and civil society organizations from Egypt started forwarding dozens of suspicious emails to Amnesty International. Through the course of our investigation we discovered that these emails were attempts to access the email accounts of their targets through a particularly insidious form of phishing known as OAuth Phishing (which we explain in detail below). We estimate the total number of targeted individuals to be in the order of several hundreds.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“These coincided with a number of important events that took place in the country. In the run-up to the eighth anniversary of Egypt’s 25 January uprising, which ended with the removal of former president Hosni Mubarak, after 30 years in power, we recorded 11 phishing attacks against NGOs and media collectives. We saw another burst of attacks during French President Emmanuel Macron’s visit to Cairo to meet with President Abdelfatah al-Sisi on 28 and 29 January. The attacks peaked on 29 January, the day that President Macron met with human rights defenders from four prominent Egyptian NGOs. Later, in the first week of February, several media organizations were targeted as part of this campaign of digital attacks; they were reporting on the process of amending the Egyptian Constitution that the parliament had just officially started.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;OAuth Phishing is an insidious phishing technique that is not very common, and consequently not as widely known to individuals at risk as the more traditional forms of phishing. Additionally, security education material rarely includes mentions of OAuth Phishing.&lt;/p&gt;
+
+&lt;p&gt;Essentially, OAuth Phishing relies on a feature that is commonly available with many email providers (such as Google, Yahoo, Hotmail and Outlook) that allows people to grant third-party applications access to their accounts. Legitimate third-party applications could be designed to, for example, extract invitations or flight and hotel bookings from the email inbox and add them to an external calendar application.&lt;/p&gt;
+
+&lt;p&gt;Attackers can abuse this feature and create malicious third-party applications that are masqueraded as legitimate while in reality their purpose is to steal the emails from the victim.&lt;/p&gt;
+
+&lt;p&gt;In the blog post we provide additional details and visuals explaining how this attack works and how to mitigate against it. Unfortunately, because this form of phishing does not rely on creating and distributing a fake login prompt for a legitimate service, but abuses the service directly, the only prevention is to be alert and suspicious of third-party applications.&lt;/p&gt;
+
+&lt;p&gt;As we highlight in the blog post, the targets of this latest campaign in Egypt significantly overlap with the targets of a similar phishing campaign discovered two years ago. At the time, the attackers set up the typical Google login clones and lured targets into giving away their credentials. Since then, human rights defenders and NGOs have equipped themselves with two-factor authentication solutions that mitigated that form of phishing. Now, the attackers have clearly adapted and the use of OAuth Phishing seems like a direct response to the better security practices that have been adopted by their targets.&lt;/p&gt;
+
+&lt;p&gt;Attackers are agile in their tactics, we need to be as agile in our defenses.&lt;/p&gt;
+</description>
+            <pubDate>Fri, 08 Mar 2019 00:00:00 +0100</pubDate>
+            <link>https://nex.sx//blog/2019/03/08/phishing-attacks-against-egyptian-civil-society.html</link>
+            <guid isPermaLink="true">https://nex.sx//blog/2019/03/08/phishing-attacks-against-egyptian-civil-society.html</guid>
+        </item>
+        
+        <item>
             <title>The Death of The Exploit</title>
             <description>&lt;p&gt;Matt Miller, from Microsoft Security Response Center, delivered a very interesting presentation at the Bluehat conference few days ago titled “Trends, challenges, and strategic shifts in the software vulnerability mitigation landscape”.&lt;/p&gt;
 
@@ -458,73 +493,6 @@
             <pubDate>Fri, 27 Nov 2015 00:00:00 +0100</pubDate>
             <link>https://nex.sx//blog/2015/11/27/letter-investigatory-powers-bill.html</link>
             <guid isPermaLink="true">https://nex.sx//blog/2015/11/27/letter-investigatory-powers-bill.html</guid>
-        </item>
-        
-        <item>
-            <title>On Export Controls</title>
-            <description>&lt;p&gt;You can ignore it, minimize it or dismiss it, but there is a problem. The systematic abuse of surveillance systems against journalists, activists and political dissidents is a documented fact. There have been &lt;a href=&quot;https://resistsurveillance.org/reports.html&quot;&gt;numerous reports&lt;/a&gt; in the last years which show that the use of spyware to suppress dissent and cover corruption isn’t an isolated event. It’s a sad reality.&lt;/p&gt;
-
-&lt;p&gt;Very often these attacks are carried out by oppressive governments around the world with the help of tools and services provided by Western companies, who have been repeatedly discovered and exposed, but are still operating with impunity.&lt;/p&gt;
-
-&lt;h3 id=&quot;regulation-or-not&quot;&gt;Regulation or not&lt;/h3&gt;
-
-&lt;p&gt;The policy making and privacy communities identified export controls as a potentially viable solution to increase the oversight and the accountability for those who market these invasive techonologies around the world. The scheme is very simple: companies willing to sell technologies classified within a selected group outside of a given region, will have to obtain a license from their local government; the licensing authority will evaluate the risks involved in such sale and decide whether to grant or reject the license; if companies are caught exporting to unlicensed countries, they can incur in legal penalties.&lt;/p&gt;
-
-&lt;p&gt;The tricky part is defining the technologies that need to be licensed accurately enough to not damage those ones that are not the original targets for such controls. Security researchers first and foremost.&lt;/p&gt;
-
-&lt;p&gt;Privacy activists claim that the ongoing implementation of export controls - for example recently by the &lt;a href=&quot;http://www.theguardian.com/technology/2014/nov/06/spyware-exports-licence-new-eu-rules-military-applications&quot;&gt;European Union&lt;/a&gt; - isn’t harming researchers in any way. A large faction of the security community claims the opposite. I don’t know where the truth stands. What I know is that there is no inclusiveness in this debate, which is starting to appear instead like a rough-and-tumble fight.&lt;/p&gt;
-
-&lt;p&gt;I do have my doubts on export controls. I’m in no position to judge whether security researchers are harmed by them or not. This is something that should be subject to rigorous meaningful debate. I mostly question their effectiveness in their current shape.&lt;/p&gt;
-
-&lt;p&gt;You’ll never hear export controls advocates say they are a perfect solution, but just a stepping stone. What I find bizarre is that while many legal experts from several European Union member states deem the use of intrusion software to be unconstitutional, we’re now debating on how can we properly and safely export it abroad. Where’s our integrity?&lt;/p&gt;
-
-&lt;p&gt;While speaking with legal experts on the matter and with licensing authorities themselves, it seems there is a common agreement that regulating technology itself is a bad idea. What they’re attempting to achieve instead is to discriminate the intentions of the license applicants and determine whether there are the legal and human rights conditions to allow companies to make business in the given country.&lt;/p&gt;
-
-&lt;p&gt;I’m skeptical. I find it very arrogant to pretend to be able to effectively determine the legitimacy of intents not only of the applicant, but of the acquiring country as well. I doubt anybody can have the proper insight in the political, social and cultural conditions of foreign countries at any point in time and be able to make accurate judgements upfront. I can also imagine that political alliances and economic interests will largely take precedence over objective concerns of human rights abuses. Libya was an ally of many and an important economic partner, until suddenly everyone realized Gaddafi was a ruthless dictator.&lt;/p&gt;
-
-&lt;p&gt;Additionally, if the intent is to control surveillance profiteers who lack any moral compass or ethical principles, shouldn’t we expect them to simply move their businesses abroad probably under way less democratic oversight and accountability?&lt;/p&gt;
-
-&lt;p&gt;Furthermore, assuming there is a concrete risk of collateral damage for security researchers as a result of this regulation, and considering the issues I explained above, are export controls a good idea in the first place?&lt;/p&gt;
-
-&lt;p&gt;I don’t know. I do not think export controls are going to stop a booming surveillance industry or prevent the abuses that are occurring so commonly nowadays. I don’t think anything will.
-However, if export controls can be a viable tool for punishing the ones repeatedly working in order to empower dictatorships, I’m not against them. I want liability, accountability and justice for those who refuse to recognize the harm they caused and who refuse to help mitigate it. Let me tell you, out of the many cases I’ve seen - where some victims even went to jail or into exile for their dissent - there hasn’t been a single instance where the suppliers of the regimes humbly acknowledged the incident, let alone assisted in remediation.&lt;/p&gt;
-
-&lt;p&gt;Surveillance vendors are the root cause for this problem and I find troubling that they’re capitalizing on the legitimate concerns of the same security researchers they’ve harmed. They make no contributions to our community and should have no part in this debate, which they are instead polluting and manipulating.&lt;/p&gt;
-
-&lt;h3 id=&quot;researchers-do-need-protection&quot;&gt;Researchers do need protection&lt;/h3&gt;
-
-&lt;p&gt;The most significant concerns expressed within the security community seem to relate specifically to the licensing of exploits and software vulnerabilities. Frankly, when reflecting on export controls I never even considered exploits. Firstly because I rarely find them used in the surveillance abuses I observe, and secondly because policy makers always reassured me they were not going to be regulated due to the technical difficulties surrounding them.&lt;/p&gt;
-
-&lt;p&gt;As a matter of fact, it is still not clear to me whether that’s the case. I had no part in drafting any export control legislation, nor am I well-informed on any particular implementation. If software vulnerabilities might in fact fall within the current controls, these would have to be the non-negotiable terms I’d require:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;The regulation must in no way affect the free flow of security research done in the public interest, especially when provided to the public.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The regulation must in no way prevent security researchers from reporting vulnerabilities to bug bounties, directly to the vendors or through other intermediaries. The process of researching, discovering and disclosing software vulnerabilities is sacred to the improvements of our systems, and must therefore be preserved and protected. As &lt;a href=&quot;https://twitter.com/scarybeasts/status/536257476023578624&quot;&gt;Chris Evans put it&lt;/a&gt;, “&lt;em&gt;regulate those who massively profit from putting others at risk&lt;/em&gt;” instead.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The regulation must in no way affect the distribution of software, including commercial, that is intended for security testing, auditing and defense purposes. I’m hopeful there are ways to define semantic differences between security products and surveillance services.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The regulation should not apply to any free and open source software.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If it is not possible to guarantee these basic requirements, then I would agree that an implementation of an export control legislation must be avoided. Perhaps we can achieve accountability through other means. Collateral damage is bad, but impunity is just as bad.&lt;/p&gt;
-
-&lt;h3 id=&quot;time-to-evolve&quot;&gt;Time to evolve&lt;/h3&gt;
-
-&lt;p&gt;Nobody is intentionally trying to obstruct security research. If there was no involvement of the security research community in the regulatory process, it’s probably because the policy makers mistakenly did not recognize the possibility of collateral damage. They probably thought they had it figured out and we were not there to prove them wrong. It’s our fault as much as theirs.&lt;/p&gt;
-
-&lt;p&gt;This is a lesson to learn. Security has grown to be an asset in the hands of a very diversified pool of actors: researchers, hackers, governments, corporations, profiteers, scumbags, activists, politicians. As a security community we need to be more participant in the public and political debate, because nobody is going to protect our interests and preserve our rights for us. We have a role in society, and we have the duty to be active players in shaping its course.&lt;/p&gt;
-
-&lt;p&gt;Security and technology have become major political agenda items and they will be regulated, whether we like it or not. Avoiding a meaningful participation is an abdication of responsibility.&lt;/p&gt;
-</description>
-            <pubDate>Sun, 15 Feb 2015 00:00:00 +0100</pubDate>
-            <link>https://nex.sx//blog/2015/02/15/on-export-controls.html</link>
-            <guid isPermaLink="true">https://nex.sx//blog/2015/02/15/on-export-controls.html</guid>
         </item>
         
     </channel>
