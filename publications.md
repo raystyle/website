@@ -38,7 +38,7 @@ I also occasionally write on my personal [blog](/blog/).
 
 These are reports that I have authored or co-authored that outline long research and investigative efforts.
 
-* [Phishing attacks using third-party applications against Egyptian civil society organizations](https://www.amnesty.org/en/latest/research/2019/03/phishing-attacks-using-third-party-applications-against-egyptian-civil-society-organizations/), *Amnesty International*, 6 Match 2019
+* [Phishing attacks using third-party applications against Egyptian civil society organizations](https://www.amnesty.org/en/latest/research/2019/03/phishing-attacks-using-third-party-applications-against-egyptian-civil-society-organizations/), *Amnesty International*, 6 March 2019
 * [When Best Practice Isn’t Good Enough: Large Campaigns of Phishing Attacks in Middle East and North Africa Target Privacy-Conscious Users](https://www.amnesty.org/en/latest/research/2018/12/when-best-practice-is-not-good-enough/), *Amnesty International*, 19 Dec 2018
 * [Amnesty International Among Targets of NSO-Powered Campaign](https://www.amnesty.org/en/latest/research/2018/08/amnesty-international-among-targets-of-nso-powered-campaign/), *Amnesty International*, 1 August 2018
 * [Human Rights Under Surveillance - Digital Threats Against Human Rights Defenders in Pakistan](https://www.amnesty.org/en/documents/asa33/8366/2018/en/), *Amnesty International*, 15 May 2018
