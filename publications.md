@@ -18,9 +18,9 @@ Following is a selection of talks I have given:
 
 ---
 
-### Articles &amp; Columns
+### Books, Articles &amp; Columns
 
-I also occasionally write on my personal [blog](/blog/).
+I contributed the closing chapter to the book [Meinungsmache im Netz: Fake News, Bots und Hate Speech](https://steidl.de/Buecher/Meinungsmache-im-Netz-Fake-News-Bots-und-Hate-Speech-4344505458.html), which can also be found on [Amazon](https://www.amazon.de/Meinungsmache-Netz-Fake-News-Speech/dp/3958295258/).
 
 * [Dissidents Have Been Abandoned and Besieged Online](https://motherboard.vice.com/en_us/article/bj5jvw/dissidents-abandoned-human-rights-iranian-surveillance-and-hacking), *Motherboard*, 13 Feb 2018
 * [Technology must foster, not hinder, free speech](http://www.dw.com/en/technology-must-foster-not-hinder-free-speech/a-39654972), *Deutsche Welle*, 13 Jul 2017
