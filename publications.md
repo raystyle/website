@@ -4,6 +4,26 @@ title: Speaking & Publications
 permalink: /publications/
 ---
 
+### Books, Articles &amp; Columns
+
+I contributed the closing chapter to the book [Meinungsmache im Netz: Fake News, Bots und Hate Speech](https://steidl.de/Buecher/Meinungsmache-im-Netz-Fake-News-Bots-und-Hate-Speech-4344505458.html), which can also be found on [Amazon](https://www.amazon.de/Meinungsmache-Netz-Fake-News-Speech/dp/3958295258/).
+
+<img src="/assets/pictures/book.png" />
+
+I occasionally write articles and opinion pieces. You can [contact me](/contacts/) if you would like me to write for you.
+
+* [Dissidents Have Been Abandoned and Besieged Online](https://motherboard.vice.com/en_us/article/bj5jvw/dissidents-abandoned-human-rights-iranian-surveillance-and-hacking), *Motherboard*, 13 Feb 2018
+* [Technology must foster, not hinder, free speech](http://www.dw.com/en/technology-must-foster-not-hinder-free-speech/a-39654972), *Deutsche Welle*, 13 Jul 2017
+* [Online Voting Is a Terrible Idea](https://motherboard.vice.com/en_us/article/online-voting-is-a-terrible-idea), *Motherboard*, 09 Jun 2017
+* [Manipulation of Public Opinion](https://medium.com/amnesty-insights/manipulation-of-public-opinion-b84c23ba3967), *Amnesty Insights*, 24 May 2017
+* [What Is To Be Hacked?](https://archive.fo/kabSL), *Limn Magazine*, 22 May 2017
+* [Interview with Hisham Almiraat — a story of Activism, Surveillance, and Freedom](https://medium.com/@botherder/interview-with-hisham-almiraat-a-story-of-activism-surveillance-and-freedom-a179fb01b8e9), *Medium*, 9 Dec 2016
+* [India and #GoIBlocks: A Lesson for ISPs When Facing Censorship Orders](https://archive.is/c9Cyc), *Global Voices*, 14 Jan 2015
+* [What Protesters in Hong Kong (and Anywhere Else) Should Know About FireChat](https://archive.is/EPjjJ), *Slate*, 02 Oct 2014
+* [Deutsche Firmen verdienen Millionen mit &Uuml;berwachungstechnik](https://archive.is/oq03O), *Die Zeit*, 05 Sept 2014
+
+---
+
 ### Videos &amp; Presentations
 
 For speaking engagements, please find my contact details [here](/contact/).  
@@ -15,22 +35,6 @@ Following is a selection of talks I have given:
 * [Helping the Helpless](https://www.youtube.com/watch?v=jZAaMmstN-U), *Chaos Communication Camp 2015*, August 2015
 * [Occupy Central and the Suppression of Dissent](https://www.youtube.com/watch?v=odJNjQCdus8), *C-Base*, October 2014
 * [To Protect And Infect - The Militarization of the Internet](https://www.youtube.com/watch?v=sW-N7qQU-tA), *30th Chaos Communication Congress*, December 2013
-
----
-
-### Books, Articles &amp; Columns
-
-I contributed the closing chapter to the book [Meinungsmache im Netz: Fake News, Bots und Hate Speech](https://steidl.de/Buecher/Meinungsmache-im-Netz-Fake-News-Bots-und-Hate-Speech-4344505458.html), which can also be found on [Amazon](https://www.amazon.de/Meinungsmache-Netz-Fake-News-Speech/dp/3958295258/).
-
-* [Dissidents Have Been Abandoned and Besieged Online](https://motherboard.vice.com/en_us/article/bj5jvw/dissidents-abandoned-human-rights-iranian-surveillance-and-hacking), *Motherboard*, 13 Feb 2018
-* [Technology must foster, not hinder, free speech](http://www.dw.com/en/technology-must-foster-not-hinder-free-speech/a-39654972), *Deutsche Welle*, 13 Jul 2017
-* [Online Voting Is a Terrible Idea](https://motherboard.vice.com/en_us/article/online-voting-is-a-terrible-idea), *Motherboard*, 09 Jun 2017
-* [Manipulation of Public Opinion](https://medium.com/amnesty-insights/manipulation-of-public-opinion-b84c23ba3967), *Amnesty Insights*, 24 May 2017
-* [What Is To Be Hacked?](https://archive.fo/kabSL), *Limn Magazine*, 22 May 2017
-* [Interview with Hisham Almiraat — a story of Activism, Surveillance, and Freedom](https://medium.com/@botherder/interview-with-hisham-almiraat-a-story-of-activism-surveillance-and-freedom-a179fb01b8e9), *Medium*, 9 Dec 2016
-* [India and #GoIBlocks: A Lesson for ISPs When Facing Censorship Orders](https://archive.is/c9Cyc), *Global Voices*, 14 Jan 2015
-* [What Protesters in Hong Kong (and Anywhere Else) Should Know About FireChat](https://archive.is/EPjjJ), *Slate*, 02 Oct 2014
-* [Deutsche Firmen verdienen Millionen mit &Uuml;berwachungstechnik](https://archive.is/oq03O), *Die Zeit*, 05 Sept 2014
 
 ---
 
