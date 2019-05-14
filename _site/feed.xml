@@ -8,6 +8,38 @@
         <atom:link href="https://nex.sx/feed.xml" rel="self" type="application/rss+xml" />
         
         <item>
+            <title>On the WhatsApp 0day and legal action against NSO Group</title>
+            <description>&lt;p&gt;The Israeli spyware firm NSO Group is in the news again today. Facebook discovered a critical vulnerability in the WhatsApp messenger apparently being leveraged in attacks set to install NSO Group’s Pegasus spyware on the targets’ phones&lt;sup id=&quot;a1&quot;&gt;&lt;a href=&quot;#f1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Facebook (who owns WhatsApp) announced today the discovery, released an emergency update for WhatsApp and disclosed some details&lt;sup id=&quot;a2&quot;&gt;&lt;a href=&quot;#f2&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;. The vulnerability seems to lie in WhatsApp’s VoIP implementation, and would allow the attackers to remotely infect a mobile device just by instantiating some video calls through the app. Because no interaction on the victim’s part is needed, this exploit is being referred to on the press as “0-click” (zero-click).&lt;/p&gt;
+
+&lt;p&gt;There are some considerations I would like to share in reaction to this story.&lt;/p&gt;
+
+&lt;p&gt;Firstly, while it is a significant story and the exploit discovered by Facebook and likely developed by NSO Group is potent and worrying, we should not consider this an isolated or unprecedented case. Unfortunately, so called “0-click” exploits are more common than it appears on the press, and blaming WhatsApp for this security flaw is shortsighted, as we can surely expect competitor apps to be equally targeted and most likely already exploited. As a matter of fact, only few months ago Reuters reported that the UAE exploited similar vulnerabilities in iMessage as part of “Project Raven”&lt;sup id=&quot;a3&quot;&gt;&lt;a href=&quot;#f3&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; Essentially, because an exploit in WhatsApp was now discovered, it does not mean other apps are inherently more secure. If anything, it speaks to the difficulty to uncover these attacks even by large and resourceful security teams such as that of Facebook, let alone by smaller organisations.&lt;/p&gt;
+
+&lt;p&gt;The amount of documented cases of targeting of journalists and human rights defenders using NSO Group’s products and services is evergrowing. And although we expect more to come to light in the future, all that we know so far is most likely a small fraction of the whole. Attacking and infecting mobile devices is a difficult, but not impossible, task because of the many security mitigations and lockdowns baked into mobile platforms, such as Android and even more so iOS. However, these security controls have made mobile devices extremely difficult to inspect, especially remotely, and particularly for those of us working in human rights organizations lacking access to adequate forensics technology. Because of this, we are rarely able to confirm infections of those who we even already suspect being targeted. Last August, for example, we discovered one of our Amnesty staff members was targeted with Pegasus&lt;sup id=&quot;a4&quot;&gt;&lt;a href=&quot;#f4&quot;&gt;4&lt;/a&gt;&lt;/sup&gt; but whether others were too is not possible for us to confirm. Quite frankly, we are on the losing side of a disheartening asymmetry of capabilities that favors attackers over us, defenders.&lt;/p&gt;
+
+&lt;p&gt;The darker reality is that NSO Group is just one of many, many more surveillance firms operating in the same space. NSO is getting caught in public more regularly probably because of their larger market share, but also because there is existing documentation for security researchers out there, such as those at Facebook who discovered this WhatsApp exploit, who can at least marginally follow NSO Group’s breadcrumbs. For this we can thank Ahmed Mansoor, who first came forward with messages that led to the discovery of Pegasus, and who is now enduring a hunger strike in the jail where he’s serving an unjust 10 years sentence&lt;sup id=&quot;a5&quot;&gt;&lt;a href=&quot;#f5&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;. Additionally, I believe the technical limitations I described earlier also contribute to the reason why not more similar exploits and spyware are discovered.&lt;/p&gt;
+
+&lt;p&gt;Ultimately, human rights defenders are losing the most. The widespread use of exploits and spyware, the seemingly unaccountable business of the firms producing them, and a worrying lack of forensics and intrusion detection technologies available to members of civil society, all contribute to a sense dooming inevitability. That is why we, at Amnesty International, are taking action. On Monday, we have filed a legal complaint to the Israeli Minister of Defense requesting the withdrawal of the export license for NSO Group&lt;sup id=&quot;a6&quot;&gt;&lt;a href=&quot;#f6&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;. Amnesty along with many other organisations have also demanded transparency and accountability to Novalpina Capital and the other financial institutions invested in the company&lt;sup id=&quot;a7&quot;&gt;&lt;a href=&quot;#f7&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;. These legal battles are new tactics that will be put to test over the next years in courts.&lt;/p&gt;
+
+&lt;p&gt;In the meantime, our Digital Security Lab at Amnesty International and all our technologists around the world have been working hard to build capacity to properly support individuals at risk. While publications are important tools for advocacy and awareness, I believe they are not enough. We need to provide human rights defenders with the practical means and the tools to prevent and respond to cyber attacks effectively. We are working towards this goal, and I am looking forward to share more about this in the future.&lt;/p&gt;
+
+&lt;p&gt;As always, if you have information to share that can help us discover and stop campaigns of illegitimate hacking of members of civil society, don’t hesitate to get in contact with me&lt;sup id=&quot;a8&quot;&gt;&lt;a href=&quot;#f8&quot;&gt;8&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;span id=&quot;f1&quot;&gt;&lt;/span&gt;1: &lt;a href=&quot;https://www.nytimes.com/2019/05/13/technology/nso-group-whatsapp-spying.html&quot;&gt;Israeli Firm Tied to Tool That Uses WhatsApp Flaw to Spy on Activists - The New York Times&lt;/a&gt;&lt;br /&gt;
+&lt;span id=&quot;f2&quot;&gt;&lt;/span&gt;2: &lt;a href=&quot;https://www.facebook.com/security/advisories/cve-2019-3568&quot;&gt;Facebook&lt;/a&gt;&lt;br /&gt;
+&lt;span id=&quot;f3&quot;&gt;&lt;/span&gt;3: &lt;a href=&quot;https://www.reuters.com/investigates/special-report/usa-spying-raven/&quot;&gt;Exclusive: Ex-NSA cyberspies reveal how they helped hack foes of UAE&lt;/a&gt;&lt;br /&gt;
+&lt;span id=&quot;f4&quot;&gt;&lt;/span&gt;4: &lt;a href=&quot;https://www.amnesty.org/en/latest/research/2018/08/amnesty-international-among-targets-of-nso-powered-campaign/&quot;&gt;Amnesty International Among Targets of NSO-powered Campaign | Amnesty International&lt;/a&gt;&lt;br /&gt;
+&lt;span id=&quot;f5&quot;&gt;&lt;/span&gt;5: &lt;a href=&quot;https://www.amnesty.org/en/latest/news/2019/04/uae-ahmed-mansoor-enters-fourth-week-of-hunger-strike-to-protest-unfair-10-year-sentence/&quot;&gt;UAE: Ahmed Mansoor enters fourth week of hunger strike to protest unfair 10-year sentence | Amnesty International&lt;/a&gt;&lt;br /&gt;
+&lt;span id=&quot;f6&quot;&gt;&lt;/span&gt;6: &lt;a href=&quot;https://www.amnesty.org/en/latest/news/2019/05/israel-amnesty-legal-action-stop-nso-group-web-of-surveillance/&quot;&gt;Israel: Amnesty International engages in legal action to stop NSO Group’s web of surveillance | Amnesty International&lt;/a&gt;&lt;br /&gt;
+&lt;span id=&quot;f7&quot;&gt;&lt;/span&gt;7: &lt;a href=&quot;https://www.amnesty.org/en/latest/research/2019/02/open-letter-to-novalpina-capital-nso-group-and-francisco-partners/&quot;&gt;Open letter to Novalpina Capital, CC: NSO Group, Francisco Partners &lt;/a&gt;&lt;br /&gt;
+&lt;span id=&quot;f8&quot;&gt;&lt;/span&gt;8: &lt;a href=&quot;https://nex.sx/contacts/&quot;&gt;Contacts - Nex&lt;/a&gt;&lt;/p&gt;
+</description>
+            <pubDate>Tue, 14 May 2019 00:00:00 +0200</pubDate>
+            <link>https://nex.sx//blog/2019/05/14/on-whatsapp-0day-legal-action-nso.html</link>
+            <guid isPermaLink="true">https://nex.sx//blog/2019/05/14/on-whatsapp-0day-legal-action-nso.html</guid>
+        </item>
+        
+        <item>
             <title>Exodus: How the Discovery of a Malware Revealed a Spy Scandal in Italy</title>
             <description>&lt;p&gt;On Friday 29th Security Without Borders in collaboration with Motherboard published a new investigation into a previously unknown surveillance vendor from Italy called eSurv.&lt;/p&gt;
 
@@ -465,35 +497,6 @@
             <pubDate>Fri, 09 Dec 2016 00:00:00 +0100</pubDate>
             <link>https://nex.sx//blog/2016/12/09/interview-hisham-almiraat.html</link>
             <guid isPermaLink="true">https://nex.sx//blog/2016/12/09/interview-hisham-almiraat.html</guid>
-        </item>
-        
-        <item>
-            <title>To Hack or Not To Hack</title>
-            <description>&lt;p&gt;Nobody wants backdoors for the state.&lt;/p&gt;
-
-&lt;p&gt;Rather, nobody reasonable wants backdoors for the state. Backdoors are undisclosed accesses to circumvent protections — they create distrust in the affected technology and are an obvious security hazard. But what about hacking? This question is the subject of much discussion at the moment. Do we want the state to make use of computer hacking?&lt;/p&gt;
-
-&lt;p&gt;Wait… why would we?&lt;/p&gt;
-
-&lt;p&gt;In democracies citizens are supposed to hold the power to determine the limits, role, rights, and responsibilities of the state. This power is an illusion. The reality is that we normally don’t fully understand what the state’s investigative powers are, and we don’t have hard evidence of their success or whether they are justified. It takes leaks or Freedom of Information Act requests to even form a blurred picture of what surveillance and intrusion technologies are adopted, and how frequently they are being used.&lt;/p&gt;
-
-&lt;p&gt;And while from a theoretical and technical point of view we might be in some position to contemplate what level of access the state should be granted, I am reluctant to endorse anything particular. Do we, as a security and hacking community, really have the responsibility and the burden to come up and provide feasible options for the state to penetrate and subvert the same technology we’re striving to protect and improve?&lt;/p&gt;
-
-&lt;p&gt;In the arm wrestle that is power structures trying to acquire additional powers, I believe we should be the opposing force, and that rather than embracing and — let alone — proposing any given option, we should be contrarian voices, with the hope that the result — if any result is to be achieved — would be satisfying.&lt;/p&gt;
-
-&lt;p&gt;So, why would we want to grant the state more power? Normally, that is what citizens should be challenging, rather than enabling. I know, there is always a tension between what would be ideal, and what is realistic. In an ideal world, states would not need to spy and snoop, but we don’t live in such a world. Still, history and recent leaks have shown authorities routinely abuse their power and, by all odds, granting them more power will likely lead to even more abuse. Acting on our ideals, even if they can’t be fully actualized, is an effective way to loudly voice such concern and to make sure that the least possible privileges are being granted.&lt;/p&gt;
-
-&lt;p&gt;Truthfully, I have no expectation of preventing hacking from becoming a legitimized tool in the arsenal of a state — it largely is already, and if not, it is inevitable. However, I do believe we should do everything to ensure it is costly, and to oppose it when discovered.&lt;/p&gt;
-
-&lt;p&gt;If we find malware used by a state, we should expose it. If we find an exploit used by a state, we should expose it. Whichever the state is, whoever the victims are.&lt;/p&gt;
-
-&lt;p&gt;It is through this process of accountability that we can maintain a balance, and this process should be safeguarded and accepted as an unavoidable operational and economic cost of adopting invasive practices.&lt;/p&gt;
-
-&lt;p&gt;I am not going to be advocating and legitimizing the use of hacking by any state, to then wait for its exposure to be criminalized. I am not going to agree to government hacking. I might tolerate it, but still continue fighting it.&lt;/p&gt;
-</description>
-            <pubDate>Sun, 16 Oct 2016 00:00:00 +0200</pubDate>
-            <link>https://nex.sx//blog/2016/10/16/to-hack-or-not-to-hack.html</link>
-            <guid isPermaLink="true">https://nex.sx//blog/2016/10/16/to-hack-or-not-to-hack.html</guid>
         </item>
         
     </channel>
