@@ -4,8 +4,8 @@
         <title>Nex</title>
         <description>The personal website of Claudio Guarnieri, alias Nex.
 </description>
-        <link>http://localhost:4000</link>
-        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+        <link>https://nex.sx</link>
+        <atom:link href="https://nex.sx/feed.xml" rel="self" type="application/rss+xml" />
         
         <item>
             <title>More on Mobile Security and Device Integrity</title>
@@ -51,8 +51,8 @@
 &lt;span id=&quot;f6&quot;&gt;&lt;/span&gt;6: &lt;a href=&quot;https://twitter.com/DidymaWorks/status/1128314170057748491&quot;&gt;Twitter&lt;/a&gt;&lt;/p&gt;
 </description>
             <pubDate>Wed, 15 May 2019 00:00:00 +0200</pubDate>
-            <link>http://localhost:4000//blog/2019/05/15/more-on-mobile-security-and-device-integrity.html</link>
-            <guid isPermaLink="true">http://localhost:4000//blog/2019/05/15/more-on-mobile-security-and-device-integrity.html</guid>
+            <link>https://nex.sx//blog/2019/05/15/more-on-mobile-security-and-device-integrity.html</link>
+            <guid isPermaLink="true">https://nex.sx//blog/2019/05/15/more-on-mobile-security-and-device-integrity.html</guid>
         </item>
         
         <item>
@@ -83,8 +83,8 @@
 &lt;span id=&quot;f8&quot;&gt;&lt;/span&gt;8: &lt;a href=&quot;https://nex.sx/contacts/&quot;&gt;Contacts - Nex&lt;/a&gt;&lt;/p&gt;
 </description>
             <pubDate>Tue, 14 May 2019 00:00:00 +0200</pubDate>
-            <link>http://localhost:4000//blog/2019/05/14/on-whatsapp-0day-legal-action-nso.html</link>
-            <guid isPermaLink="true">http://localhost:4000//blog/2019/05/14/on-whatsapp-0day-legal-action-nso.html</guid>
+            <link>https://nex.sx//blog/2019/05/14/on-whatsapp-0day-legal-action-nso.html</link>
+            <guid isPermaLink="true">https://nex.sx//blog/2019/05/14/on-whatsapp-0day-legal-action-nso.html</guid>
         </item>
         
         <item>
@@ -123,8 +123,8 @@
 &lt;span id=&quot;f4&quot;&gt;&lt;/span&gt;4: &lt;a href=&quot;https://www.corrieredellacalabria.it/regione/cosenza/item/181508-magistrati-e-investigatori-gli-amici-calabresi-del-poliziotto-della-spy-story/&quot;&gt;Magistrati e investigatori, gli amici calabresi del poliziotto della “spy story” - Corriere della Calabria&lt;/a&gt;&lt;/p&gt;
 </description>
             <pubDate>Thu, 04 Apr 2019 00:00:00 +0200</pubDate>
-            <link>http://localhost:4000//blog/2019/04/04/exodus-spy-scandal-italy.html</link>
-            <guid isPermaLink="true">http://localhost:4000//blog/2019/04/04/exodus-spy-scandal-italy.html</guid>
+            <link>https://nex.sx//blog/2019/04/04/exodus-spy-scandal-italy.html</link>
+            <guid isPermaLink="true">https://nex.sx//blog/2019/04/04/exodus-spy-scandal-italy.html</guid>
         </item>
         
         <item>
@@ -158,8 +158,8 @@
 &lt;p&gt;Attackers are agile in their tactics, we need to be as agile in our defenses.&lt;/p&gt;
 </description>
             <pubDate>Fri, 08 Mar 2019 00:00:00 +0100</pubDate>
-            <link>http://localhost:4000//blog/2019/03/08/phishing-attacks-against-egyptian-civil-society.html</link>
-            <guid isPermaLink="true">http://localhost:4000//blog/2019/03/08/phishing-attacks-against-egyptian-civil-society.html</guid>
+            <link>https://nex.sx//blog/2019/03/08/phishing-attacks-against-egyptian-civil-society.html</link>
+            <guid isPermaLink="true">https://nex.sx//blog/2019/03/08/phishing-attacks-against-egyptian-civil-society.html</guid>
         </item>
         
         <item>
@@ -195,8 +195,8 @@
 &lt;p&gt;Getting back to software vulnerabilities and exploits, Matt writes in his presentation that Microsoft’s strategy against them is turning from “increasing cost &amp;amp; difficulty” to “getting to done”. It’s comforting to think we might eventually be “done” with exploits, but if we learned anything out of decades of cybersecurity is that the death of the exploit might just be the birth of something new.&lt;/p&gt;
 </description>
             <pubDate>Wed, 13 Feb 2019 00:00:00 +0100</pubDate>
-            <link>http://localhost:4000//blog/2019/02/13/the-death-of-the-exploit.html</link>
-            <guid isPermaLink="true">http://localhost:4000//blog/2019/02/13/the-death-of-the-exploit.html</guid>
+            <link>https://nex.sx//blog/2019/02/13/the-death-of-the-exploit.html</link>
+            <guid isPermaLink="true">https://nex.sx//blog/2019/02/13/the-death-of-the-exploit.html</guid>
         </item>
         
         <item>
@@ -242,8 +242,8 @@
 &lt;p&gt;&lt;span id=&quot;f1&quot;&gt;&lt;/span&gt;1: &lt;a href=&quot;https://duo.com/blog/gmail-oauth-phishing-goes-viral&quot;&gt;GMail OAuth Phishing Goes Viral&lt;/a&gt; &lt;a href=&quot;#a1&quot;&gt;↩&lt;/a&gt;&lt;/p&gt;
 </description>
             <pubDate>Tue, 22 Jan 2019 00:00:00 +0100</pubDate>
-            <link>http://localhost:4000//blog/2019/01/22/the-losing-battle-of-phishing-education.html</link>
-            <guid isPermaLink="true">http://localhost:4000//blog/2019/01/22/the-losing-battle-of-phishing-education.html</guid>
+            <link>https://nex.sx//blog/2019/01/22/the-losing-battle-of-phishing-education.html</link>
+            <guid isPermaLink="true">https://nex.sx//blog/2019/01/22/the-losing-battle-of-phishing-education.html</guid>
         </item>
         
         <item>
@@ -275,8 +275,8 @@
 &lt;p&gt;Currently, security keys supporting the U2F protocol (such as Yubikeys, Nitro keys, Solo keys, etc.) are the best available protection and I invite everyone to at least explore that option. The report provides some more elaborate considerations and recommendations about this, so I invite you to read it in full.&lt;/p&gt;
 </description>
             <pubDate>Thu, 20 Dec 2018 00:00:00 +0100</pubDate>
-            <link>http://localhost:4000//blog/2018/12/20/phishing-2fa-and-false-myths.html</link>
-            <guid isPermaLink="true">http://localhost:4000//blog/2018/12/20/phishing-2fa-and-false-myths.html</guid>
+            <link>https://nex.sx//blog/2018/12/20/phishing-2fa-and-false-myths.html</link>
+            <guid isPermaLink="true">https://nex.sx//blog/2018/12/20/phishing-2fa-and-false-myths.html</guid>
         </item>
         
         <item>
@@ -321,8 +321,8 @@
 &lt;span id=&quot;f8&quot;&gt;&lt;/span&gt;8: &lt;a href=&quot;https://citizenlab.ca/2018/11/mexican-journalists-investigating-cartels-targeted-nso-spyware-following-assassination-colleague/&quot;&gt;Reckless VI: Mexican Journalists Investigating Cartels Targeted with NSO Spyware Following Assassination of Colleague&lt;/a&gt; &lt;a href=&quot;#a8&quot;&gt;↩&lt;/a&gt;&lt;/p&gt;
 </description>
             <pubDate>Wed, 05 Dec 2018 00:00:00 +0100</pubDate>
-            <link>http://localhost:4000//blog/2018/12/05/nso-group-and-surveillance-of-saudi-dissidents.html</link>
-            <guid isPermaLink="true">http://localhost:4000//blog/2018/12/05/nso-group-and-surveillance-of-saudi-dissidents.html</guid>
+            <link>https://nex.sx//blog/2018/12/05/nso-group-and-surveillance-of-saudi-dissidents.html</link>
+            <guid isPermaLink="true">https://nex.sx//blog/2018/12/05/nso-group-and-surveillance-of-saudi-dissidents.html</guid>
         </item>
         
         <item>
@@ -374,8 +374,8 @@
 &lt;div class=&quot;footnote&quot;&gt;This text is adapted from my speech at re:publica 2017 in conversation with Garry Kasparov.&lt;/div&gt;
 </description>
             <pubDate>Wed, 24 May 2017 00:00:00 +0200</pubDate>
-            <link>http://localhost:4000//blog/2017/05/24/manipulation-public-opinion.html</link>
-            <guid isPermaLink="true">http://localhost:4000//blog/2017/05/24/manipulation-public-opinion.html</guid>
+            <link>https://nex.sx//blog/2017/05/24/manipulation-public-opinion.html</link>
+            <guid isPermaLink="true">https://nex.sx//blog/2017/05/24/manipulation-public-opinion.html</guid>
         </item>
         
         <item>
@@ -428,8 +428,8 @@
 &lt;p&gt;In conclusion, I invite software producers — especially those who provide highly popular consumer applications — to stay informed on how some of their choices are being regularly abused, to stop blaming users, and to start practicing more mindful engineering.&lt;/p&gt;
 </description>
             <pubDate>Wed, 11 Jan 2017 00:00:00 +0100</pubDate>
-            <link>http://localhost:4000//blog/2017/01/11/on-banality-of-attacks.html</link>
-            <guid isPermaLink="true">http://localhost:4000//blog/2017/01/11/on-banality-of-attacks.html</guid>
+            <link>https://nex.sx//blog/2017/01/11/on-banality-of-attacks.html</link>
+            <guid isPermaLink="true">https://nex.sx//blog/2017/01/11/on-banality-of-attacks.html</guid>
         </item>
         
     </channel>
