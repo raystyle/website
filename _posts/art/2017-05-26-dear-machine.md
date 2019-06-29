@@ -20,7 +20,7 @@ I scanned the open Internet to harvest hundreds of thousands of HTML comments fr
 Every line of Dear Machine is an extracted comment, from an unknown developer of an unspecified website, contributing to this infinite diary between humans and the technology they build.
 
 {:center}
-You can view the artwork at [www.dear-machine.com](https://dear-machine.com/)
+You can view the artwork at [www.dear-machine.net](https://dear-machine.net/)
 
 {:.center}
 ![](/assets/art/dear-machine/thumbnail.png)
